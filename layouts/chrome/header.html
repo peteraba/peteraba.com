@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <meta charset="utf-8">
+
+    {{ template "chrome/meta.html" . }}
+
+    <base href="{{ .Site.BaseUrl }}">
+    <title> {{ .Title }} - peteraba.com </title>
+    <link rel="canonical" href="{{ .Permalink }}">
+    {{ if .RSSlink }}<link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Title }}" />{{ end }}
+
+    {{ template "chrome/head_includes.html" . }}
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/static/img/pa.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/static/img/pa-iphone4.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/static/img/pa-ipad.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/static/img/pa-iphone.png" />
+</head>

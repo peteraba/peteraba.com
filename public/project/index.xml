@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Projects on Peter Aba </title>
+    <link>http://localhost:1313/project/index.xml</link>
+    <language>en-us</language>
+    <author>Peter Aba</author>
+    <rights>Copyright (c) 2013 - 2014, Peter Aba; all rights reserved.</rights>
+    <updated>Fri, 14 Feb 2014 00:00:00 UTC</updated>
+    
+    <item>
+      <title>zf2-mailer: Open source newsletter manager software based on Zend Framework 2</title>
+      <link>http://localhost:1313/project/zf2-mailer</link>
+      <pubDate>Fri, 14 Feb 2014 00:00:00 UTC</pubDate>
+      <author>Peter Aba</author>
+      <guid>http://localhost:1313/project/zf2-mailer</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deutschodoro: Chrome and Web app for helping English speakers learn German</title>
+      <link>http://localhost:1313/project/deutschodoro</link>
+      <pubDate>Mon, 13 May 2013 00:00:00 UTC</pubDate>
+      <author>Peter Aba</author>
+      <guid>http://localhost:1313/project/deutschodoro</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>go-blah: a Martini based backend application</title>
+      <link>http://localhost:1313/project/go-blah</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      <author>Peter Aba</author>
+      <guid>http://localhost:1313/project/go-blah</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dblfinder: cli tool for finding duplicated files</title>
+      <link>http://localhost:1313/project/dblfinder</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      <author>Peter Aba</author>
+      <guid>http://localhost:1313/project/dblfinder</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
