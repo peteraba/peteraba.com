@@ -7,7 +7,7 @@
 	"Tags": [
 		"golang"
 	],
-	"Pubdate": "",
+	"Pubdate": "2014-03-27",
 	"Topics": [
 		"golang"
 	],

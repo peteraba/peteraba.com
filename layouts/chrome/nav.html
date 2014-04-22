@@ -1,20 +1,21 @@
-        <ul id="mainnav">
-            <li>
-                <a href="/post/">
-                <span class="icon"> <i aria-hidden="true" class="icon-quill"></i></span>
-                <span> blog </span>
-            </a>
-            </li>
-            <li>
-            <a href="/project/">
-                <span class="icon"> <i aria-hidden="true" class="icon-console"></i></span>
-                <span> code </span>
-            </a>
-            </li>
-            <li>
-            <a href="/presentation/">
-                <span class="icon"> <i aria-hidden="true" class="icon-stats"></i></span>
-                <span> talks </span>
-            </a>
-            </li>
-        </ul>
+<ul class="nav navbar-nav">
+  <li>
+    <a href="{{ .Site.BaseUrl }}/post/">blog</a>
+  </li>
+  <li>
+    <a href="{{ .Site.BaseUrl }}/project/">code</a>
+  </li>
+  <li>
+    <a href="{{ .Site.BaseUrl }}/presentation/">talks</a>
+  </li>
+  <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">tags <b class="caret"></b></a>
+    <ul class="dropdown-menu">
+      <li><a href="{{ .Site.BaseUrl }}/tags/golang">golang</a></li>
+      <li><a href="{{ .Site.BaseUrl }}/tags/javascript">javascript</a></li>
+      <li><a href="{{ .Site.BaseUrl }}/tags/php">php</a></li>
+      <li><a href="#">sql</a></li>
+      <li><a href="#">nosql</a></li>
+    </ul>
+  </li>
+</ul>

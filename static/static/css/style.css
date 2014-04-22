@@ -1,0 +1,5 @@
+article header h2 a, article header h2 a:hover {color: #ddd; text-transform: lowercase}
+
+.main-container {padding-bottom: 5em;}
+
+.footer-navbar {height: 3em; padding: 1em 0; overflow: hidden}

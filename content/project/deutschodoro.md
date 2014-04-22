@@ -1,5 +1,5 @@
 {
-	"Title": "Deutschodoro: Chrome and Web app for helping English speakers learn German",
+	"Title": "deutschodoro: Practice German online or within Chrome",
 	"Description": "",
 	"Keywords": [
 		"JavaScript"

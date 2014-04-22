@@ -1,5 +1,5 @@
 {
-	"Title": "zf2-mailer: Open source newsletter manager software based on Zend Framework 2",
+	"Title": "zf2-mailer: Open source newsletter manager software",
 	"Description": "",
 	"Keywords": [
 		"PHP",

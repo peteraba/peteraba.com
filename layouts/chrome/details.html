@@ -1,4 +1,5 @@
 {{ $baseurl := .Site.BaseUrl }}
+    {{ if .FuzzyWordCount }}
     <div>
         <section id="datecount">
           <h4 id="date"> {{ .Date.Format "Mon Jan 2, 2006" }} </h4>
@@ -23,16 +24,16 @@
             &nbsp;{{if .Next}}<a class="next" href="{{.Next.Permalink}}">{{.Next.Title}} <i class="icon-arrow-right"></i></a>{{end}}
         </section>
     </div>
+    {{ end }}
 
     <div>
         <section id="author">
              <h4>About the Author:</h4> 
-                Peter is a backend developer since 2002. He is originally from 
-                Budapest, Hungary, but now lives in Berlin, Germany.
-                He is a open source contributor and author of <a
-                href="http://zf2-mailer.peteraba.com">zf2-mailer</a>, <a
-                href="http://deutschodoro.com">Deutschodoro</a> and various other 
-                libraries and projects. You can find him on <a href="http://github.com/peteraba">Github</a>
-                and occasionally on <a href="http://twitter.com/p_aba">Twitter</a>.
+                Peter is a webdeveloper, hacking stuff since 2002. He is originally from 
+                Budapest but now lives in Berlin, Germany.
+                He is an open source contributor and author of numerous libraries and small projects. 
+                He can be found on <a href="http://github.com/peteraba">Github</a> and
+                <a href="http://de.linkedin.com/in/peteraba">LinkedIn</a>, plus less frequently
+                on <a href="http://twitter.com/p_aba">Twitter</a>.
         </section>
     </div>
