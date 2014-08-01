@@ -21,7 +21,6 @@
     "project_name": "zf2-mailer",
     "project_description": "Open source newsletter manager software based on Zend Framework 2",
     "official_url": "http://github.com/peteraba/zf2-mailer",
-    "download_url": "",
     "version": "0.1",
     "release_date": "2014-02-14",
     "section": "code"

@@ -15,7 +15,6 @@
     "project_name": "Deutschodoro",
     "project_description": "Chrome and Web app for helping English speakers learn German",
     "official_url": "http://github.com",
-    "download_url": "",
     "version": "",
     "release_date": "2013-05-13",
     "section": "code"

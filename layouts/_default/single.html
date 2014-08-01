@@ -16,7 +16,7 @@
     </div>
 </section>
 
-{{ if .disqus_url }}
+{{ if isset .Params "disqus_url" }}
     {{ template "chrome/disqus.html" . }}
 {{ end }}
 
