@@ -4,13 +4,20 @@
 {{ $baseurl := .Site.BaseUrl }}
 
 <section id="main">
-  <h1 itemprop="name" id="title">{{ .Title }}</h1>
-  <div>
+    <header>
+        <h1 itemprop="name" id="title">{{ .Title }}</h1>
+        <div class="post-meta text-success">{{ .Date.Format "Mon, Jan 2, 2006" }} </div>
+    </header>
+  
+    <div>
         <article itemprop="articleBody" id="content">
            {{ .Content }}
         </article>
-  </div>
+    </div>
 </section>
 
-{{ template "chrome/disqus.html" . }}
+{{ if .disqus_url }}
+    {{ template "chrome/disqus.html" . }}
+{{ end }}
+
 {{ template "chrome/footer.html" . }}

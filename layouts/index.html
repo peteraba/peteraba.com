@@ -17,12 +17,14 @@
 {{ template "chrome/subheader.html" . }}
 
 <section id="main">
-  <div>
-   <h1 id="title">Peter Aba - DevStuff</h1>
-    {{ range first 10 .Data.Pages }}
-        {{ .Render "summary"}}
-    {{ end }}
-  </div>
+    <h1 id="title">peter on dev stuff</h1>
+    <div>
+      {{ range first 100 .Data.Pages }}
+          {{ if eq .Section "blog"}}
+            {{ .Render "summary"}}
+          {{ end }}
+      {{ end }}
+    </div>
 </section>
 
 <aside id="meta"> </aside>

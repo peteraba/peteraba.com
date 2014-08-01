@@ -1,28 +1,25 @@
 {
+	"title": "Jenkins for JavaScript I.",
+	"description": "I actually thought that setting up Jenkins to properly test a PHP based application is hard. Then I tried to do the same for JavaScript...",
+	"keywords": [
+		"jenkins",
+		"javascript",
+		"continious integration"
+	],
+	"tags": [
+		"jenkins",
+		"javascript",
+		"continious integration"
+	],
+	"pubdate": "2012-11-21",
+	"date": "2012-11-21",
+	"topics": [],
+	"slug": "jenkins-for-javascript-i",
+	"section": "blog",
+	"thumbnail": "/images/jenkins-for-javascript-i.png",
 	"disqus_url" : "http://peteraba.com/post/jenkins-for-javascript-i/",
 	"disqus_identifier" : "peteraba http://peteraba.com/?p=peteraba",
-	"disqus_title" : "Jenkins for JavaScript I.",
-	"Title": "Jenkins for JavaScript I.",
-	"Description": "I actually thought that setting up Jenkins to properly test a PHP based application is hard. Then I tried to do the same for JavaScript...",
-	"Keywords": [
-		"Jenkins",
-		"JavaScript",
-		"CI"
-	],
-	"Tags": [
-		"Jenkins",
-		"JavaScript",
-		"CI"
-	],
-	"Pubdate": "2012-11-21",
-	"Topics": [
-		"Jenkins",
-		"JavaScript",
-		"CI"
-	],
-	"Slug": "jenkins-for-javascript-i",
-	"Section": "post",
-	"Thumbnail": "/images/jenkins-for-javascript-i.png"
+	"disqus_title" : "Jenkins for JavaScript I."
 }
 I actually thought that setting up Jenkins to properly test a PHP based application is hard. Then I tried to do the same for JavaScript... I'm currently half way there, but I think I already learnt enough to make up for a quick post.
 

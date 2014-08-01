@@ -3,12 +3,12 @@
 {{ template "chrome/subheader.html" . }}
 
 <section id="main">
-  <div>
-   <h1 id="title">{{ .Title }}</h1>
-    {{ range .Data.Pages }}
-        {{ .Render "summary"}}
-    {{ end }}
-  </div>
+    <h1 id="title">code</h1>
+    <div>
+        {{ range first 100 .Data.Pages }}
+            {{ .Render "summary"}}
+        {{ end }}
+    </div>
 </section>
 
 {{ template "chrome/footer.html" }}
