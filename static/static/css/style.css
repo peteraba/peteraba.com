@@ -3,3 +3,47 @@ article header h2 a, article header h2 a:hover {color: #ddd; text-transform: low
 .main-container {padding-bottom: 5em;}
 
 .footer-navbar {height: 3em; padding: 1em 0; overflow: hidden}
+
+#content {margin: 1em 0;}
+
+#content img {max-width: 100%;}
+
+#comments {margin-top: 4em;}
+
+#outer_ribbon {position: absolute; top: 0; left: 0;}
+
+/**
+ * http://unindented.org/articles/github-ribbon-using-css-transforms/
+ */
+.ribbon {
+  background-color: #a00;
+  background-color: #cc0000;
+  overflow: hidden;
+  white-space: nowrap;
+  /* top left corner */
+  position: absolute;
+  left: -50px;
+  top: 40px;
+  /* 45 deg ccw rotation */
+  -webkit-transform: rotate(-45deg);
+     -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+       -o-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  /* shadow */
+  -webkit-box-shadow: 0 0 10px #888;
+     -moz-box-shadow: 0 0 10px #888;
+          box-shadow: 0 0 10px #888;
+}
+.ribbon a {
+  border: 1px solid #faa;
+  color: #fff;
+  display: block;
+  font: bold 81.25% 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 1px 0;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  /* shadow */
+  text-shadow: 0 0 5px #444;
+}

@@ -24,6 +24,14 @@
   </div>
 </footer>
 
+{{if isset .Params "project_url" }}
+<div id="outer_ribbon">
+    <div id="ribbon" class="ribbon">
+        <a href="{{ index .Params "project_url" }}" rel="me">Fork me on GitHub</a>
+    </div>
+</div>
+{{ end }}
+
 <!-- Closing container defined in subheader.html -->
 </div>
 
