@@ -2,13 +2,13 @@
 <body lang="en">
 {{ template "chrome/subheader.html" . }}
 
-<section id="main">
-    <h1 id="title">blog</h1>
-    <div>
-        {{ range first 100 .Data.Pages }}
-            {{ .Render "summary" }}
-        {{ end }}
-    </div>
-</section>
+    <section id="main">
+        <h1 id="title">blog</h1>
+        <div>
+            {{ range first 100 .Data.Pages }}
+                {{ .Render "summary" }}
+            {{ end }}
+        </div>
+    </section>
 
 {{ template "chrome/footer.html" }}

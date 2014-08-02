@@ -1,44 +1,44 @@
-<!-- Closing column defined in subheader.html -->
-</div>
-<div class="col-md-3">
-    {{ template "chrome/meta_aside.html" . }}
-</div>
-
-<!-- Closing row defined in subheader.html -->
-</div>
-
-<footer class="navbar navbar-default navbar-fixed-bottom footer-navbar">
-  <div class="container">
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <p class="nav navbar-nav">
-            &copy; 2013-14 <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <span itemprop="name">Peter Aba.</span></span>
-            <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons Attribution">some rights reserved</a>
-        </p>
-        <p class="nav navbar-nav navbar-right">
-            Powered by <a href="http://hugo.spf13.com/">Hugo</a>.
-                Design by <a href="http://bootswatch.com/">Bootswatch</a>.
-        </p>
-    </div><!-- /.navbar-collapse -->
-  </div>
-</footer>
-
-{{if isset .Params "project_url" }}
-<div id="outer_ribbon">
-    <div id="ribbon" class="ribbon">
-        <a href="{{ index .Params "project_url" }}" rel="me">Fork me on GitHub</a>
+    <!-- Closing column defined in subheader.html -->
     </div>
-</div>
-{{ end }}
+    <div class="col-md-3">
+        {{ template "chrome/meta_aside.html" . }}
+    </div>
 
-<!-- Closing container defined in subheader.html -->
-</div>
+    <!-- Closing row defined in subheader.html -->
+    </div>
 
-<script type="text/javascript" src="/static/js/jquery-1.8.3.min.js"></script>
-<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="/static/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-<script type="text/javascript" src="/static/js/main.js"></script>
+    <footer class="navbar navbar-default navbar-fixed-bottom footer-navbar">
+      <div class="container">
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <p class="nav navbar-nav">
+                &copy; 2013-14 <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <span itemprop="name">Peter Aba.</span></span>
+                <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons Attribution">some rights reserved</a>
+            </p>
+            <p class="nav navbar-nav navbar-right">
+                Powered by <a href="http://hugo.spf13.com/">Hugo</a>.
+                    Design by <a href="http://bootswatch.com/">Bootswatch</a>.
+            </p>
+        </div><!-- /.navbar-collapse -->
+      </div>
+    </footer>
+
+    {{if isset .Params "project_url" }}
+    <div id="outer_ribbon">
+        <div id="ribbon" class="ribbon">
+            <a href="{{ index .Params "project_url" }}" rel="me">Fork me on GitHub</a>
+        </div>
+    </div>
+    {{ end }}
+
+    <!-- Closing container defined in subheader.html -->
+    </div>
+
+    <script type="text/javascript" src="/static/js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/static/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    <script type="text/javascript" src="/static/js/main.js"></script>
 
 </body>
 </html>

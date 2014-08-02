@@ -1,25 +1,23 @@
 {
-	"title": "Don't die",
-	"description": "Using ",
-	"keywords": [
-		"php",
-		"xdebug"
-	],
-	"tags": [
-		"php",
-		"xdebug"
-	],
-	"pubdate": "2012-11-20",
-	"date": "2012-11-20",
-	"topics": [],
-	"url": "blog/dont-die",
-	"slug": "dont-die",
-	"section": "blog",
-	"thumbnail": "/images/dont-die.png",
-	"disqus_url" : "http://peteraba.com/post/dont-die/",
-	"disqus_identifier" : "peteraba http://peteraba.com/?p=peteraba",
-	"disqus_title" : "Don't die",
-	"has_code": true
+    "title": "Don't die",
+    "description": "Using ",
+    "keywords": [
+        "php",
+        "xdebug"
+    ],
+    "tags": [
+        "php",
+        "xdebug"
+    ],
+    "pubdate": "2012-11-20",
+    "date": "2012-11-20",
+    "topics": [],
+    "section": "blog",
+    "thumbnail": "/images/dont-die.png",
+    "disqus_url" : "http://peteraba.com/post/dont-die/",
+    "disqus_identifier" : "peteraba http://peteraba.com/?p=peteraba",
+    "disqus_title" : "Don't die",
+    "has_code": true
 }
 Your unit tests are broken, you need to figure out what happened. You analyze the stack trace and open up the file you feel to be guilty of the error. You put some var_dump statement - maybe you'll put it in some pre in there and then just die().
 

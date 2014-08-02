@@ -2,6 +2,8 @@
 indexes:
     tag: "tags"
     topic: "topics"
+Taxonomies:
+    section: "sections"
 baseurl: ""
 title: "Peter Aba"
 ...

@@ -19,11 +19,11 @@
 <section id="main">
     <h1 id="title">peter on dev stuff</h1>
     <div>
-      {{ range first 100 .Data.Pages }}
-          {{ if eq .Section "blog"}}
-            {{ .Render "summary"}}
-          {{ end }}
-      {{ end }}
+        {{ range first 100 .Data.Pages }}
+            {{ if eq .Section "blog"}}
+                {{ .Render "summary"}}
+            {{ end }}
+        {{ end }}
     </div>
 </section>
 
