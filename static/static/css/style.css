@@ -5,12 +5,15 @@ article header h2 a, article header h2 a:hover {color: #ddd; text-transform: low
 .footer-navbar {height: 3em; padding: 1em 0; overflow: hidden}
 
 #content {margin: 1em 0;}
-
 #content img {max-width: 100%;}
 
 #comments {margin-top: 4em;}
 
 #outer_ribbon {position: absolute; top: 0; left: 0;}
+
+#categories, #tags {margin: 1em 0;}
+
+.post {margin: 2em 0;}
 
 /**
  * http://unindented.org/articles/github-ribbon-using-css-transforms/

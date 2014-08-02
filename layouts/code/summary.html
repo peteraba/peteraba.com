@@ -1,6 +1,7 @@
 <article class="post">
     <header>
-      <h2><a href='{{ .Permalink }}'> {{ .Title }}</a> </h2>
+      <h2><a href='{{ .Permalink }}'> {{ index .Params "project_name" }}</a> </h2>
+      <p>{{ index .Params "project_description" }}</p>
       <div class="post-meta text-success">{{ .Date.Format "Mon, Jan 2, 2006" }} </div>
     </header>
 

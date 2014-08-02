@@ -7,6 +7,20 @@
     <header>
         <h1 itemprop="name" id="title">{{ .Title }}</h1>
         <div class="post-meta text-success">{{ .Date.Format "Mon, Jan 2, 2006" }} </div>
+        <div id="categories">
+        {{ range .Params.topics }}
+            <span>
+                <a href="{{ $baseurl }}/topics/{{ . | urlize }}" class="btn btn-primary btn-xs">{{ . }}</a>
+            </span>
+        {{ end }}
+        </div>
+        <div id="tags">
+        {{ range .Params.tags }}
+            <span>
+                <a href="{{ $baseurl }}/tags/{{ . | urlize }}" class="btn btn-primary btn-xs">{{ . }}</a>
+            </span>
+        {{ end }}
+        </div>
     </header>
   
     <div>

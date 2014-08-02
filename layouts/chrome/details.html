@@ -1,23 +1,5 @@
 {{ $baseurl := .Site.BaseUrl }}
 
-{{ if .FuzzyWordCount }}
-<div>
-    <section id="datecount">
-        <div class="post-meta text-success">{{ .Date.Format "Mon Jan 2, 2006" }}</div>
-    </section>
-    <ul id="categories">
-    {{ range .Params.topics }}
-        <li><a href="{{ $baseurl }}/topics/{{ . | urlize }}">{{ . }}</a> </li>
-    {{ end }}
-    </ul>
-    <ul id="tags">
-    {{ range .Params.tags }}
-        <li> <a href="{{ $baseurl }}/tags/{{ . | urlize }}">{{ . }}</a> </li>
-    {{ end }}
-    </ul>
-</div>
-{{ end }}
-
 <div>
     <section id="author">
         <h3>Peter Aba</h3>
@@ -28,8 +10,8 @@
             with a much wider variety of programming languages like Python, Hack and especially Go.<br>
        </p>
        <p>
-            You can read <a href="/about-me">more about him</a>, or 
-            <a href="http://peethallgatzene.tumblr.com" target="_blank">listen to music he likes</a> too.
+            You can read <a href="{{ $baseurl }}/about-me/">more about him</a>, or 
+            <a href="http://peethallgatzene.tumblr.com/" target="_blank">listen to music he likes</a> too.
        </p>
     </section>
 </div>
