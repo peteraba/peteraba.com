@@ -20,7 +20,7 @@ article header h2 a, article header h2 a:hover {color: #ddd; text-transform: low
  */
 .ribbon {
   background-color: #a00;
-  background-color: #cc0000;
+  background-color: #2a9fd6;
   overflow: hidden;
   white-space: nowrap;
   /* top left corner */
@@ -40,6 +40,7 @@ article header h2 a, article header h2 a:hover {color: #ddd; text-transform: low
 }
 .ribbon a {
   border: 1px solid #faa;
+  border: 1px solid #eee;
   color: #fff;
   display: block;
   font: bold 81.25% 'Helvetica Neue', Helvetica, Arial, sans-serif;
