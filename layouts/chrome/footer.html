@@ -1,7 +1,12 @@
     <!-- Closing column defined in subheader.html -->
     </div>
     <div class="col-md-3">
-        {{ template "chrome/meta_aside.html" . }}
+
+        <aside id="meta">
+            {{ template "chrome/meta_aside.html" . }}
+            {{ template "chrome/author.html" . }}
+            {{ template "chrome/projects.html" . }}
+        </aside>
     </div>
 
     <!-- Closing row defined in subheader.html -->

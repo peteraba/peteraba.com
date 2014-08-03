@@ -1,9 +1,8 @@
 {{ $baseurl := .Site.BaseUrl }}
 
-    <aside id="meta">
-    {{ template "chrome/details.html" . }}
-    </aside>
-
+    {{ if isset . "WordCount" }}
     <meta itemprop="wordCount" content="{{ .WordCount }}">
+    {{ end }}
+
     <meta itemprop="datePublished" content="{{ .Date.Format "2006-01-02" }}">
     <meta itemprop="url" content="{{ .Permalink }}">

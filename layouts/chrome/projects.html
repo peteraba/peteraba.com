@@ -1,0 +1,14 @@
+{{ $baseurl := .Site.BaseUrl }}
+
+{{ if .Site }}
+    <section id="projects">
+        <h3>projects</h3>
+        <div>
+            {{ range first 100 .Data.Pages }}
+                {{ if eq .Section "code"}}
+                    {{ .Render "short"}}
+                {{ end }}
+            {{ end }}
+        </div>
+    </section>
+{{ end }}

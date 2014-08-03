@@ -11,7 +11,7 @@
     "date": "2013-05-13",
     "topics": [],
     "project_url": "http://github.com/peteraba/deutschodoro",
-    "project_name": "Deutschodoro",
+    "project_name": "deutschodoro",
     "project_description": "Chrome and Web app for helping English speakers learn German",
     "official_url": "http://github.com",
     "version": "",

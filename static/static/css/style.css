@@ -13,7 +13,11 @@ article header h2 a, article header h2 a:hover {color: #ddd; text-transform: low
 
 #categories, #tags {margin: 1em 0;}
 
-.post {margin: 2em 0;}
+.post, .talk, .code {margin: 2em 0;}
+
+#projects {margin: 3em 0;}
+#projects .code {margin: 1.5em 0;}
+
 
 /**
  * http://unindented.org/articles/github-ribbon-using-css-transforms/
