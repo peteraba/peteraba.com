@@ -10,8 +10,7 @@ building a website fun again.
 
 # License
 
-The following files and directories including their contents are Copyright Peter Aba, or
-their respective copyright holders:
+The following files and directories including their contents are Copyright Peter Aba, or their respective copyright holders:
 
 * content/
 * static/media/
