@@ -8,14 +8,11 @@
         "mongodb",
         "php",
         "presentations",
-        "e-commerce",
-        "php"
+        "e-commerce"
     ],
     "tags": [
-        "go",
-        "martini",
-        "s3",
-        "aws"
+        "golang",
+        "martini"
     ],
     "pubdate": "2011-04-10",
     "date": "2011-04-10",

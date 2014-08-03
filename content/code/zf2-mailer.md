@@ -10,7 +10,6 @@
     "tags": [
         "php",
         "zf2",
-        "e-mail",
         "marketing"
     ],
     "pubdate": "2014-02-14",

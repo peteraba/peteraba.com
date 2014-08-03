@@ -2,7 +2,8 @@
 indexes:
     tag: "tags"
     topic: "topics"
-Taxonomies:
+taxonomies:
+    tag: "tags"
     section: "sections"
 baseurl: ""
 title: "Peter Aba"
