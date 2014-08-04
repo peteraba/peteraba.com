@@ -1,6 +1,6 @@
 {{ $baseurl := .Site.BaseUrl }}
 
-{{ if .Data }}
+{{ if and .Data .Data.Pages }}
     <section id="projects">
         <h3>projects</h3>
         <div>
