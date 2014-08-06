@@ -43,7 +43,7 @@ If you're interested in seeing markdown in action. You can take a quick look at 
 Hugo
 ----
 
-#### Up side ####
+#### Upside ####
 
 As I've already mentioned, Hugo got my interest because it was written in Go and it was one of the few open source Go projects that had a bit of a following at the time I found it. Granted, Hugo is not yet stable and has it's shortcomings, it does have a bit to offer:
 
@@ -65,13 +65,13 @@ As I've already mentioned, Hugo got my interest because it was written in Go and
  * Fast build times (~1ms per page)
  * Helpful and friendly community
 
-#### Down side ####
+#### Downside ####
 
 Again, Hugo is not yet stable, so it's too early for critising, but at the moment I miss two features:
 
  * Real pagination instead of only being able to limit the number of rendered posts.
  * A way to be consistently access all pages. At the moment I can only access all pages from the homepage and posts belonging to the section inside on section list page.
 
-#### Finally ####
+#### Conclusion ####
 
 The lack of aforementioned features don't bother me too much, because I believe that these will sorted out shortly. And if they don't, I'll be always able to hack the feature in since it's in Go and it is open source. All-in-all great job guys!
