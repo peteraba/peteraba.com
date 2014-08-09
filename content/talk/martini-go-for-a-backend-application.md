@@ -27,4 +27,4 @@
 I gave a presentation
 on “Martini, Go - For a Backend Application” at the Backend Web Berlin Usergroup in May of 2014. These were the slides for my presentation.
 
-**[Martini, Go - For a Backend Application](https://docs.google.com/presentation/d/1ZWA2XcUOlzNszBueYRnx4q2y2l3ZIQR6ZDBzJfKNonQ/edit?usp=sharing "Martini, Go - For a Backend Application")**
+**[Martini, Go - For a Backend Application](https://docs.google.com/presentation/d/1ZWA2XcUOlzNszBueYRnx4q2y2l3ZIQR6ZDBzJfKNonQ/present#slide=id.p)**
