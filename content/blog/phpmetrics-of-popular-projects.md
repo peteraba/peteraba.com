@@ -2,6 +2,12 @@
 date = 2014-09-01T19:07:23Z
 draft = false
 title = "phpmetrics of popular projects"
+description = Using phpmetrics to generate static analysis of popular php projects
+tags = ["phpmetrics", "php", "metrics"]
+section = "blog"
+disqus_url = "http://peteraba.com/post/dont-die/"
+disqus_identifier = "peteraba http://peteraba.com/?p=peteraba"
+disqus_title = "Don't die"
 +++
 
 [agavi-report]: /metrics/phpmetrics/agavi/report.html "Report for agavi"
@@ -201,6 +207,8 @@ The tool seems to be a bit buggy, but I'll do my best to contribute to this proj
   * Some projects aren't necessarily well known, but trending on github
   * dm-mailer is in not important at all, but my latest php hobby project. I put it in the Backfire section along with 
     the phpmetrics project.
+  * Note that php-yaf and phalcon are both very interesting php frameworks, but mostly C-based, therefore they are not
+    included
 
 
 Results
