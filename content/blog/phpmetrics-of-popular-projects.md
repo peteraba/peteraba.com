@@ -5,9 +5,9 @@ title = "phpmetrics of popular projects"
 description = "Using phpmetrics to generate static analysis of popular php projects"
 tags = ["phpmetrics", "php", "metrics"]
 section = "blog"
-disqus_url = "http://peteraba.com/post/dont-die/"
+disqus_url = "http://peteraba.com/post/phpmetrics-of-popular-projects/"
 disqus_identifier = "peteraba http://peteraba.com/?p=peteraba"
-disqus_title = "Don't die"
+disqus_title = "phpmetrics of popular projects"
 +++
 
 [agavi-report]: /metrics/phpmetrics/agavi/report.html "Report for agavi"
