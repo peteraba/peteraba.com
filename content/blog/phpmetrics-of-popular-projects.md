@@ -2,7 +2,7 @@
 date = 2014-09-01T19:07:23Z
 draft = false
 title = "phpmetrics of popular projects"
-description = Using phpmetrics to generate static analysis of popular php projects
+description = "Using phpmetrics to generate static analysis of popular php projects"
 tags = ["phpmetrics", "php", "metrics"]
 section = "blog"
 disqus_url = "http://peteraba.com/post/dont-die/"
