@@ -1,73 +1,95 @@
 body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #ccc;
 }
+
 article header h2 a, article header h2 a:hover {
-  color: #ddd;
-  text-transform: lowercase;
+    color: #ddd;
+    text-transform: lowercase;
 }
+
 .main-container {
-  padding-bottom: 5em;
+    padding-bottom: 5em;
 }
+
 .footer-navbar {
-  height: 3em;
-  padding: 1em 0;
-  overflow: hidden;
+    height: 3em;
+    padding: 1em 0;
+    overflow: hidden;
 }
+
 #content {
-  margin: 1em 0;
+    margin: 1em 0;
 }
+
 #content img {
-  max-width: 100%;
+    max-width: 100%;
 }
+
 #comments {
-  margin-top: 4em;
+    margin-top: 4em;
 }
+
 #outer_ribbon {
-  position: absolute;
-  top: 0;
-  left: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
+
 #categories, #tags {
-  margin: 1em 0;
+    margin: 1em 0;
 }
+
 .post, .talk, .code {
-  margin: 2em 0;
+    margin: 2em 0;
 }
+
 #projects {
-  margin: 3em 0;
+    margin: 3em 0;
 }
+
 #projects .code {
-  margin: 1.5em 0;
+    margin: 1.5em 0;
+}
+
+#content table {
+    padding: 5px;
+    width: 100%;
+    background-color: transparent;
+}
+#content th {
+    border-bottom: 1px solid #888;
 }
 
 /* *
 * http://unindented.org/articles/github-ribbon-using-css-transforms/ */
 .ribbon {
-  background-color: #a00;
-  background-color: #2a9fd6;
-  overflow: hidden;
-  white-space: nowrap; /* top left corner */
-  position: absolute;
-  left: -50px;
-  top: 40px; /* 45 deg ccw rotation */
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg); /* shadow */
-  -webkit-box-shadow: 0 0 10px #888;
-  -moz-box-shadow: 0 0 10px #888;
-  box-shadow: 0 0 10px #888;
+    background-color: #a00;
+    background-color: #2a9fd6;
+    overflow: hidden;
+    white-space: nowrap; /* top left corner */
+    position: absolute;
+    left: -50px;
+    top: 40px; /* 45 deg ccw rotation */
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg); /* shadow */
+    -webkit-box-shadow: 0 0 10px #888;
+    -moz-box-shadow: 0 0 10px #888;
+    box-shadow: 0 0 10px #888;
 }
+
 .ribbon a {
-  border: 1px solid #faa;
-  border: 1px solid #eee;
-  color: #fff;
-  display: block;
-  font: bold 81.25% 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  margin: 1px 0;
-  padding: 10px 50px;
-  text-align: center;
-  text-decoration: none; /* shadow */
-  text-shadow: 0 0 5px #444;
+    border: 1px solid #faa;
+    border: 1px solid #eee;
+    color: #fff;
+    display: block;
+    font: bold 81.25% 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 1px 0;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none; /* shadow */
+    text-shadow: 0 0 5px #444;
 }
