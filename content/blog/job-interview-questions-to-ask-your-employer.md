@@ -12,21 +12,15 @@ disqus_title = "job-interview-questions-to-ask-your-employer"
 +++
 
 **Note:** I'm by no means an expert in this. I just made these questions up for my own sake. I did however look at posts
-created by others, some by self-proclaimed experts. There was only one that I [actually liked]
-(http://www.forbes.com/sites/jacquelynsmith/2013/07/05/30-questions-you-should-and-shouldnt-ask-in-a-job-interview/).
+created by others, some by self-proclaimed experts. There were only two that I [actually]
+(http://www.forbes.com/sites/jacquelynsmith/2013/07/05/30-questions-you-should-and-shouldnt-ask-in-a-job-interview/)
+[liked](https://www.themuse.com/advice/51-interview-questions-you-should-be-asking).
+
 
 There are so many blog posts out there about questions to be prepared for as an employee as a developer. 
 On the other hand we are often fortunate enough to be able to choose the company we want to work for. 
 I even think that for team leader or lead developer positions you must ask questions like these to make sure that you'll 
 fit in the company properly.
-
-### Environment ###
-
-1. You're looking for a new office. What are your key search terms in doing that?
-2. What office size are you looking for and how big would the IT department be
-3. Are you open for purchasing MacBooks for devs? 
-4. Free cereals? Coffee? Club Mate? Fruits? Canteen?
-5. Anything cool in the plans?
 
 ### Company ###
 
@@ -36,7 +30,16 @@ fit in the company properly.
 6. What do you like most about this company?
 7. Would you allow employees to do remote work partially?
 8. Would you be upset to learn a developer has some video running on one of his screens? And in the background?
-4. Marketing or IT driven company? Marketing or IT driven office?
+9. Do you consider the company more marketing or IT driven? (And this office?)
+10. Does the company represent itself at industry conferences?
+
+### Environment ###
+
+1. What are your key search terms when looking for a new office?
+2. How many people works/will work in the office?
+3. Are you open for purchasing MacBooks for developers? 
+4. Is there free food, cereals? Coffee? Club Mate? Fruits? Canteen?
+5. Is there / will be there anything special about the office? Gaming room? Quite room? Technical library?
 
 ### Expectations ###
 
@@ -49,4 +52,9 @@ fit in the company properly.
 1. What personal attributes are you looking for when hiring colleagues?
 2. How often would you find time and money to support team building events?
 3. What are your thoughts on in-house educational workshops, talks and hackathons?
-4. Do you expect to have budget for conferences?
+
+### Education ###
+
+1. What training programs are available to your employees? 
+2. Do you have budget for conferences?
+3. Do you have plans to do language trainings?
