@@ -1,25 +1,18 @@
-{
-    "title": "Jenkins for JavaScript I.",
-    "description": "I actually thought that setting up Jenkins to properly test a PHP based application is hard. Then I tried to do the same for JavaScript...",
-    "keywords": [
-        "jenkins",
-        "javascript",
-        "continious integration"
-    ],
-    "tags": [
-        "jenkins",
-        "javascript",
-        "continious integration"
-    ],
-    "pubdate": "2012-11-21",
-    "date": "2012-11-21",
-    "topics": [],
-    "section": "blog",
-    "thumbnail": "/images/jenkins-for-javascript-i.png",
-    "disqus_url" : "http://peteraba.com/post/jenkins-for-javascript-i/",
-    "disqus_identifier" : "peteraba http://peteraba.com/?p=peteraba",
-    "disqus_title" : "Jenkins for JavaScript I."
-}
++++
+title = "jenkins for javascript I."
+description = "I actually thought that setting up Jenkins to properly test a PHP based application is hard. Then I tried to do the same for JavaScript..."
+keywords = ["jenkins", "javascript", "continious integration"]
+tags = ["jenkins", "javascript", "continious integration"]
+pubdate = "2012-11-21"
+date = "2012-11-21"
+topics = []
+section = "blog"
+thumbnail = "/images/jenkins-for-javascript-i.png"
+disqus_url = "http://peteraba.com/post/jenkins-for-javascript-i/"
+disqus_identifier = "peteraba http://peteraba.com/?p=peteraba"
+disqus_title = "jenkins for javascript I."
++++
+
 I actually thought that setting up Jenkins to properly test a PHP based application is hard. Then I tried to do the same for JavaScript... I'm currently half way there, but I think I already learnt enough to make up for a quick post.
 
 As an effort to make the code for this blog as clean and good as possible, I decided to set up Jenkins. It wasn't a big deal until I made my mind up that the frontend part should also be tested there. That's where all hell broke loose.

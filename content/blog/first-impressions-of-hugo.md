@@ -1,11 +1,15 @@
 +++
 date = 2014-08-06T17:23:51Z
-title = "First Impressions of Hugo"
+title = "first Impressions of hugo"
 tags = ["open source", "go", "hugo"]
+keywords = ["open source", "go", "hugo"]
+disqus_url = "http://peteraba.com/post/first-impressions-of-hugo"
+disqus_identifier = "peter http://peteraba.com/?p=peteraba"
+disqus_title = "first impressions of hugo"
 +++
 
 Prerequisite
----------------
+------------
 
 So I'm lately enjoying Go as my langauge of choice and [Hugo](http://hugo.spf13.com/) is an open source site generator written in Go. It is a new project when you compare it to alternatives like Wordpress or Joomla but even when compared to the big fish of the genre: [Jekyll](http://jekyllrb.com/).
 
