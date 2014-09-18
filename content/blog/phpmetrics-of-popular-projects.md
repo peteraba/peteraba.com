@@ -214,8 +214,10 @@ The tool seems to be a bit buggy, but I'll do my best to contribute to this proj
     <strong>Note:</strong>
     Quick tips for reading the reports:
     
-     * More dot will mean more classes
-     * Red means not maintainable, yellow is acceptable and green indicates good, maintainable code
+    <ul>
+        <li>More dots simply mean more classes.</li>
+        <li>Red means not maintainable, yellow is acceptable and green indicates good, maintainable code.</li>
+    </ul>
 </div>
 
 
