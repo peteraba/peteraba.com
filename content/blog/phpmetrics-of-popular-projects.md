@@ -44,7 +44,7 @@ disqus_title = "phpmetrics of popular php projects"
 [sylius-report]: /metrics/phpmetrics/sylius/report.html "Report for sylius"
 [symfony1-report]: /metrics/phpmetrics/symfony1/report.html "Report for symfony1"
 [symfony2-report]: /metrics/phpmetrics/symfony2/report.html "Report for symfony2"
-[typeo3-report]: / "Report for typeo3"
+[typo3-report]: / "Report for typo3"
 [virtuemart-report]: /metrics/phpmetrics/virtuemart/report.html "Report for virtuemart"
 [webasyst-report]: /metrics/phpmetrics/webasyst/report.html "Report for webasyst"
 [wordpress-report]: /metrics/phpmetrics/wordpress/report.html "Report for wordpress"
@@ -88,7 +88,7 @@ disqus_title = "phpmetrics of popular php projects"
 [sylius-maintain]: /metrics/phpmetrics/sylius/phpmetric-maintenability.png "Maintainablity of sylius"
 [symfony1-maintain]: /metrics/phpmetrics/symfony1/phpmetric-maintenability.png "Maintainablity of symfony1"
 [symfony2-maintain]: /metrics/phpmetrics/symfony2/phpmetric-maintenability.png "Maintainablity of symfony2"
-[typeo3-maintain]: /metrics/phpmetrics/typeo3/na.png "Maintainablity of typeo3"
+[typo3-maintain]: /metrics/phpmetrics/typo3/na.png "Maintainablity of typo3"
 [virtuemart-maintain]: /metrics/phpmetrics/virtuemart/phpmetric-maintenability.png "Maintainablity of virtuemart"
 [webasyst-maintain]: /metrics/phpmetrics/webasyst/phpmetric-maintenability.png "Maintainablity of webasyst"
 [wordpress-maintain]: /metrics/phpmetrics/wordpress/phpmetric-maintenability.png "Maintainablity of wordpress"
@@ -132,7 +132,7 @@ disqus_title = "phpmetrics of popular php projects"
 [sylius-project]: http://sylius.org/ "Project site of sylius"
 [symfony1-project]: http://symfony.com/legacy "Project site of symfony1"
 [symfony2-project]: http://symfony.com/ "Project site of symfony2"
-[typeo3-project]: http://typo3.org/ "Project site of typeo3"
+[typo3-project]: http://typo3.org/ "Project site of typo3"
 [webasyst-project]: http://www.webasyst.com/ "Project site of webasyst"
 [virtuemart-project]: http://virtuemart.net/ "Project site of virtuemart"
 [wordpress-project]: http://wordpress.org/ "Project site of wordpress"
@@ -176,7 +176,7 @@ disqus_title = "phpmetrics of popular php projects"
 [sylius-repo]: https://github.com/Sylius/Sylius "Repository of sylius"
 [symfony1-repo]: https://github.com/symfony/symfony1 "Repository of symfony1"
 [symfony2-repo]: https://github.com/symfony/symfony "Repository of symfony2"
-[typeo3-repo]: https://git.typo3.org/Packages/TYPO3.CMS.git "Repository of typeo3"
+[typo3-repo]: https://git.typo3.org/Packages/TYPO3.CMS.git "Repository of typo3"
 [virtuemart-repo]: http://dev.virtuemart.net/projects/virtuemart/repository "Repository of virtuemart"
 [wordpress-repo]: https://github.com/WordPress/WordPress "Repository of wordpress"
 [zencart-repo]: https://github.com/zencart/zc-v1-series "Repository of zencart"
@@ -189,8 +189,8 @@ Story
 -----
 
 I came across a new tool called [phpmetrics][phpmetrics-project]. It can be used for, what a surprise, calculating and 
-displaying metrics for php. I fell in love with this cute little tool in an instance and decided to run it on some php 
-projects that I consider important. I'm aware of the fact that the list is  currently far from complete, but it's 
+displaying metrics for php. I fell in love with the tool in an instance and decided to run it on some php 
+projects that I consider important. I'm aware of the fact that the list is far from complete, but it's 
 probably still worth a look.  I especially love the "maintenability" (sic!) reports, I find those big red spots just as 
 disgusting as I find ugly code the same.
 
@@ -209,6 +209,14 @@ The tool seems to be a bit buggy, but I'll do my best to contribute to this proj
     the phpmetrics project.
   * Note that php-yaf and phalcon are both very interesting php frameworks, but mostly C-based, therefore they are not
     included
+
+<div class="alert alert-info" role="alert">
+    <strong>Note:</strong>
+    Quick tips for reading the reports:
+    
+     * More dot will mean more classes
+     * Red means not maintainable, yellow is acceptable and green indicates good, maintainable code
+</div>
 
 
 Results
@@ -237,7 +245,7 @@ Results
 | **[slim][slim-project]**                       | ![maintainablity][slim-maintain]             | [report][slim-report]             | [repo][slim-repo]             | <span class="bg-warning">within 5 months</span>   |
 | **[symfony1][symfony1-project]**               | ![maintainablity][symfony1-maintain]         | [report][symfony1-report]         | [repo][symfony1-repo]         | <span class="bg-danger">within 2 years</span>     |
 | **[symfony2][symfony2-project]**               | ![maintainablity][symfony2-maintain]         | [report][symfony2-report]         | [repo][symfony2-repo]         | within 1 week                                     |
-| **[typeo3][typeo3-project]**                   | ![maintainablity][cakephp-maintain]          | ~~report~~                        | [repo][typeo3-repo]           | within 1 week                                     |
+| **[typo3][typo3-project]**                     | ![maintainablity][typo3-maintain]            | ~~report~~                        | [repo][typo3-repo]            | within 1 week                                     |
 | **[yii1][yii1-project]**                       | ![maintainablity][yii1-maintain]             | [report][yii1-report]             | [repo][yii1-repo]             | within 2 weeks                                    |
 | **[yii2][yii2-project]**                       | ![maintainablity][yii2-maintain]             | [report][yii2-report]             | [repo][yii2-repo]             | within 1 week                                     |
 | **[zf1][zf1-project]**                         | ![maintainablity][zf1-maintain]              | [report][zf1-report]              | [repo][zf1-repo]              | within 1 week                                     |
