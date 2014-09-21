@@ -24,14 +24,11 @@ fit in the company properly.
 
 ### Company ###
 
-1. How would you describe the company’s culture and leadership philosophy?
-2. How many people would I report to?
-3. How many people do you report to?
-6. What do you like most about this company?
-7. Would you allow employees to do remote work partially?
-8. Would you be upset to learn a developer has some video running on one of his screens? And in the background?
-9. Do you consider the company more marketing or IT driven? (And this office?)
-10. Does the company represent itself at industry conferences?
+1. What is the company structure like?
+2. What do you like most about this company?
+3. Would you allow employees to do remote work partially?
+4. Do you consider the company more marketing or IT driven? (And this office?)
+5. Does the company represent itself at industry conferences?
 
 ### Environment ###
 
