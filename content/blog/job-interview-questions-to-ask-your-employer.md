@@ -7,7 +7,7 @@ tags = ["career"]
 keywords = ["career"]
 section = "blog"
 disqus_url = "http://peteraba.com/post/job-interview-questions-to-ask-your-employer/"
-disqus_identifier = "peteraba http://peteraba.com/?p=peteraba"
+disqus_identifier = "job-interview-questions-to-ask-your-employer"
 disqus_title = "job-interview-questions-to-ask-your-employer"
 +++
 

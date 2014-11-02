@@ -9,7 +9,7 @@ topics = []
 section = "blog"
 thumbnail = "/images/jenkins-for-javascript-i.png"
 disqus_url = "http://peteraba.com/post/jenkins-for-javascript-i/"
-disqus_identifier = "peteraba http://peteraba.com/?p=peteraba"
+disqus_identifier = "jenkins-for-javascript-i"
 disqus_title = "jenkins for javascript I."
 +++
 

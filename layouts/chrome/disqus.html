@@ -8,7 +8,9 @@
             var disqus_url = '{{if isset .Params "disqus_url" }}{{ index .Params "disqus_url" | html  }}{{ else }}{{ .Permalink }}{{end}}';
 
             (function() {
-                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                var dsq = document.createElement('script');
+                dsq.type = 'text/javascript';
+                dsq.async = true;
                 dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
                 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
             })();

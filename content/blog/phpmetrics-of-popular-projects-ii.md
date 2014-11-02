@@ -6,7 +6,7 @@ description = "Using phpmetrics to generate static analysis of popular php proje
 tags = ["phpmetrics", "php", "metrics", "go", "phpmetricsall"]
 section = "blog"
 disqus_url = "http://peteraba.com/post/phpmetrics-of-popular-php-projects-2/"
-disqus_identifier = "peteraba http://peteraba.com/?p=peteraba"
+disqus_identifier = "phpmetrics-of-popular-php-projects-2"
 disqus_title = "phpmetrics of popular php projects 2"
 +++
 

@@ -5,7 +5,7 @@ title = "how i ended up loving vim within a week"
 tags = ["vim", "ide", "editor"]
 section = "blog"
 disqus_url = "http://peteraba.com/post/how-i-ended-up-loving-vim-within-a-week"
-disqus_identifier = "peter http://peteraba.com/?p=peteraba"
+disqus_identifier = "how-i-ended-up-loving-vim-within-a-week"
 disqus_title = "how i ended up loving vim within a week"
 +++
 

@@ -8,7 +8,7 @@ date = "2012-11-20"
 section = "blog"
 thumbnail = "/images/dont-die.png"
 disqus_url = "http://peteraba.com/post/dont-die/"
-disqus_identifier = "peteraba http://peteraba.com/?p=peteraba"
+disqus_identifier = "dont-die"
 disqus_title = "don't die"
 has_code = true
 +++

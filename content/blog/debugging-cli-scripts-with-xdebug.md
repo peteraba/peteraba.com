@@ -7,7 +7,7 @@ date = 2012-11-27T00:00:00Z
 section = "blog"
 thumbnail = "/images/debugging-cli-scripts-with-xdebug.png"
 disqus_url = "http://peteraba.com/blog/debugging-cli-scripts-with-xdebug/"
-disqus_identifier = "peteraba http://peteraba.com/?p=peteraba"
+disqus_identifier = "debugging-cli-scripts-with-xdebug"
 disqus_title = "debugging cli scripts with xdebug"
 has_code = true
 +++
