@@ -2,7 +2,7 @@
 title = "job interview questions to ask your employer"
 draft = true
 date = "2014-09-14T20:37:56+02:00"
-pubdate = "2014-09-14T20:37:56+02:00"
+pubdate = "2014-11-02T10:37:56+02:00"
 tags = ["career"]
 keywords = ["career"]
 section = "blog"
@@ -25,10 +25,11 @@ fit in the company properly.
 ### Company ###
 
 1. What is the company structure like?
-2. What do you like most about this company?
-3. Would you allow employees to do remote work partially?
-4. Do you consider the company more marketing or IT driven? (And this office?)
+2. What do you like most about the company?
+3. Would you allow employees to do remote work to some extent?
+4. Do you consider the company more marketing or IT driven? (And this office or branch?)
 5. Does the company represent itself at industry conferences?
+6. Do you contribute to open source projects?
 
 ### Environment ###
 
@@ -55,3 +56,7 @@ fit in the company properly.
 1. What training programs are available to your employees? 
 2. Do you have budget for conferences?
 3. Do you have plans to do language trainings?
+4. Do you have a mentorship program?
+
+This how far I got. Obviously feel free to pick and use the ones you agree with and leave out the ones you feel
+inappropriate. If you think I left out something important, feel free to comment.
