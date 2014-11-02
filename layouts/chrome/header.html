@@ -6,9 +6,9 @@
     {{ template "chrome/meta.html" . }}
 
     <base href="{{ .Site.BaseUrl }}">
-    <title> {{ .Title }} - peteraba.com </title>
+    <title>{{ if .Title }}{{ .Title }} - {{ end }}peteraba.com</title>
     <link rel="canonical" href="{{ .Permalink }}">
-    {{ if .RSSlink }}<link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Title }}" />{{ end }}
+    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="{{ .Title }}" />
 
     {{ template "chrome/head_includes.html" . }}
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
