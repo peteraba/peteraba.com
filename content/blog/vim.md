@@ -51,17 +51,30 @@ Movements
  - **Jump to previous character in line:** F
  - **Jump to next character in line, cursor 1 char before occurrence:** t
  - **Jump to previous character in line, cursor 1 char after occurrence:** T
+ - **Repeat last jump to character (f):** ;
+ - **Repeat last jump to character (f) backward:** ,
 
 #### Examples
 
  - *Search the 2nd 'p' forward in line:* f2p
  - *Search the 2nd 'p' backwards in line:* F2p
 
+### Visual mode
+
+ - **Toggle going between first and last characters of selection in visual mode:** o
+ - **Toggle going between first and last characters of selection on current line in visual mode:** O
+
+### Advanced
 
 
 Editing
 =======
 
+Basics
+------
+
+ - **Insert:** i
+ - **Append:** a
  - **Delete:** x{Motion}
  - **Undo changes:** u
  - **Change:** c{Motion}
@@ -82,6 +95,10 @@ Editing
  - **Yanking 1 line:** Y
  - **Yanking 2 lines:** 2Y
 
+Advanced stuff
+--------------
+
+ - **Insert something at the end of the current line:** A
 
 
 Search and Replace
@@ -92,7 +109,9 @@ Search
 
  - **Simple search:** /
  - **Simple search backwards:** ?
-
+ - **Jump to next occurence of word under cursor:** *
+ - **Jump to previous occurence of word under cursor:** #
+ - **Jump to matching curly brace, parantheses or bracket under the cursor:** %
 
 #### Examples
 
@@ -105,6 +124,8 @@ Replace
  - **Replace first 'Amber' with 'Ember' in line:** :s/Amber/Ember
  - **Replace all 'Amber' with 'Ember' in line:** :s/Amber/Ember/g
  - **Replace all 'Amber' with 'Ember' in file:** :%s/Amber/Ember/g
+ - **Replace a character:** r
+ - **Enable replace mode:** R
 
 #### Examples
 
@@ -112,6 +133,21 @@ Replace
  - *Replace using last search:* :%s//replaceText/g
  - *Searching for text starting with a non-space, but the non-space excluded:* /[^ ]\zs(
 
+Delete
+------
+
+ - **Delete first line that matches expression:** : :s/expression/d
+
+#### Examples
+
+ - **Delete all lines except that matches expression**: :g!/expression/d
+ - **Delete all lines except that matches expression (with shortcut)**: :v/expression/d
+
+
+Advanced stuff
+--------------
+
+ - **Very magic mode (Most usual expression engine):** \v
 
 
 Macros 
@@ -290,6 +326,10 @@ Selecting types
  - **Inside:* i
  - **Around** a
 
+#### Examples
+
+ - *Change content of first Double quotes on line:* ci"
+ - *Delete current paragraph plus the following empyt lines:* dap
 
 
 Registers
@@ -313,28 +353,19 @@ Actions in Insert Mode
  - **Leaving insert mode for one command:** <c-o>
  - **Insert stuff from register A:** <c-r>A
  - **Using the expression register:** <c-r>=r{Expression}
-
+ - **Insert something at the beginning of the current line:** I
 
 
 Random actions and motions
 ==========================
 
- - **Very magic mode (Most usual expression engine):** \v
+ - **Perform the last action again:** .
  - **Open a file under the cursor:** gf
  - **Join current line with the following one by a space:** J
  - **Look up manual for command/program under the cursor:** K
- - **Replace a character:** r
- - **Enable replace mode:** R
- - **Toggle going between first and last characters of selection in visual mode:** o
- - **Toggle going between first and last characters of selection on current line in visual mode:** O
- - **Perform the last action again:** .
- - **Insert something at the end of the current line:** A
- - **Insert something at the beginning of the current line:** I
- - **Repeat last jump to character (f):** ;
- - **Repeat last jump to character (f) backward:** ,
- - **Jump to next occurence of word under cursor:** *
- - **Jump to previous occurence of word under cursor:** #
- - **Jump to matching curly brace, parantheses or bracket under the cursor:** %
  - **Increment number under cursor:** <c-a>
  - **Decrement number under cursor:** <c-x>
- - **Toggle text case:** g~{Motion}
+
+#### Examples
+
+ - *Increment all the itemnum attributes in an XML file*: :g/itemnum/normal 20^A
