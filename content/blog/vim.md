@@ -64,7 +64,6 @@ Movements
  - **Toggle going between first and last characters of selection in visual mode:** o
  - **Toggle going between first and last characters of selection on current line in visual mode:** O
 
-### Advanced
 
 
 Editing
@@ -99,6 +98,7 @@ Advanced stuff
 --------------
 
  - **Insert something at the end of the current line:** A
+
 
 
 Search and Replace
@@ -148,6 +148,7 @@ Advanced stuff
 --------------
 
  - **Very magic mode (Most usual expression engine):** \v
+
 
 
 Macros 
@@ -207,12 +208,26 @@ Command line
 Buffers
 =======
 
+Pure buffer commands
+--------------------
+
  - **List buffers:** :ls
  - **Next buffer:** :bn
  - **Previous buffer:** :bp
  - **Go to buffer #12:** :b12
  - **Delete current buffer:** :bd
  - **Delete buffer #12:** :bd12
+ - **New buffer:** :enew
+
+Handling files
+--------------
+
+ - **Writing buffer to disk:** :w
+ - **Force writing buffer to disk:** :w!
+ - **Writing all buffers to disk:** :wa
+ - **Writing buffer to disk as filename:** :w filename
+ - **Save file as filename:** :saveas filename
+ - **Set file type:** :set ft=filetype
 
 New comment on the top of our 4 buffers
 ---------------------------------------
@@ -258,6 +273,9 @@ Windows
  - **1 rows shorter:** <c-w>-
  - **1 columns wider:** <c-w>>
  - **1 columns narrower:** <c-w><
+
+#### Examples
+
  - *5 rows higher:* <c-w>5+
  - *5 rows shorter:* <c-w>5-
  - *5 columns wider:* <c-w>5>
@@ -360,6 +378,7 @@ Random actions and motions
 ==========================
 
  - **Perform the last action again:** .
+ - **Undo:** u
  - **Open a file under the cursor:** gf
  - **Join current line with the following one by a space:** J
  - **Look up manual for command/program under the cursor:** K
@@ -369,3 +388,4 @@ Random actions and motions
 #### Examples
 
  - *Increment all the itemnum attributes in an XML file*: :g/itemnum/normal 20^A
+
