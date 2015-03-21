@@ -74,8 +74,8 @@ Visual mode
  - **Toggle going between first and last characters of selection on current line in visual mode:** O
 
 
-Changelist
-==========
+Change list
+===========
 
  - **Navigate to previous change:** g;
  - **Navigate to next change:** g,
@@ -289,7 +289,7 @@ Windows
 ### Split Windows
 
  - **Open (file in) horizontal split** :split [filename]; :sp [filename]
- - **Open (file in) vertial split:** :vpspit [filename]; :vsp [filename]
+ - **Open (file in) vertical split:** :vpspit [filename]; :vsp [filename]
  - **Open buffer in horizontal split window:** :sb3
  - **Open buffer in vertical split window:** :vert sb3
 
@@ -319,7 +319,7 @@ Windows
  - *5 columns narrower:* <c-w>5<
  - **Make windows as equal as possible:* <c-w>=
 
-### Miscelaneous
+### Miscellaneous
 
  - Close all windows except the currently active one:** :on
 
@@ -444,6 +444,7 @@ Random actions and motions
  - *Increment all the itemnum attributes in an XML file*: :g/itemnum/normal 20^A
 
 
+
 Explorer (netrw)
 ================
 
@@ -458,11 +459,39 @@ Window
  - **Open Explorer at directory of current file:** :Explorer
  - **Open Explorer in vertical split window at directory of current file:** :Vex
 
-Manipulating filesystem
------------------------
+Manipulating file system
+------------------------
 
  - **Create a new file:** %
  - **Create a new directory:** d
  - **Rename a file/directory under the cursor:** R
  - **Delete the file/directory under the cursor:** D
+
+
+
+Spell checking
+==============
+
+Spell checking is built in into vim.
+
+Enabling
+--------
+
+ - **Enabling spellcheking:** :set spell
+ - **Setting British English spelling:** :spellang=en_gb
+ - **Accepting all English spellings (default):** :spellang=en
+ - **Setting language for window:** :windo set spellang=en
+ - **Setting language for buffer:** :bufdo set spellang=en
+
+
+Navigation
+----------
+
+ - **Next misspelling:** ]s
+ - **Previous misspelling:** [s
+ - **Spelling suggestions:** z=
+ - **Adding word to known words:** zg
+ - **Removing word from known words:** zw
+ - **Unding adding word to known words:** zug
+ - **Unding removing word to known words:** zuw
 
