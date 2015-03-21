@@ -438,6 +438,7 @@ Random actions and motions
  - **Enforces spaces or tabs (depending on expandtab setting):** :retab!
  - **Reveal current directory:** :pwd
  - **Change current directory:** :cd
+ - **Insert newText in 3 consequtive rows at once:** <c-V>2jInewText<Esc>
 
 #### Examples
 
