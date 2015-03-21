@@ -183,8 +183,11 @@ Macros
 ======
 
  - **Record empty command list into macro into register a:** qaq
- - *Record macro into register a, delete tag around text in line and go to next line:* qadf>f<d$jq
  - **Replay macro from register a:** @a
+
+#### Examples
+
+ - *Record macro into register a, delete tag around text in line and go to next line:* qadf>f<d$jq
  - *Replaying last macro 240 times:* 240@a
 
 
@@ -332,7 +335,7 @@ Tabs
  - **Cloas all tabs except the currently active one:** :tabo
  - **Move current tab to the end:** :tabmove
  - **Move current tab to the beginning:** :tabmove 0
-- **Move current tab to be the second tab:** :tabmove 1
+ - **Move current tab to be the second tab:** :tabmove 1
 
 
 
@@ -342,14 +345,14 @@ Indents and Folds
 Indents
 -------
 
-- **Indent current line:** >>
-- **Unindent current line:** <<
-- **Indent current lines:** 3>>
-- **Unndent current lines:** 3<<
-- **Indent in insert mode:** <c-T>
-- **Unindent in insert mode:** <c-D>
-- **Indent selected lines in visual mode 6 times:** 6>
-- **Unindent selected lines in visual mode 6 times:** 6<
+ - **Indent current line:** >>
+ - **Unindent current line:** <<
+ - **Indent current lines:** 3>>
+ - **Unndent current lines:** 3<<
+ - **Indent in insert mode:** <c-T>
+ - **Unindent in insert mode:** <c-D>
+ - **Indent selected lines in visual mode 6 times:** 6>
+ - **Unindent selected lines in visual mode 6 times:** 6<
 
 
 
@@ -372,71 +375,94 @@ Text Objects
 Object types
 ------------
 
-- **Words:** w
-- **Paragraph:** p
-- **Sentence:** s
-- **Tag:** t
-- **Curly braces:** {
-- **Brackets:** [
-- **Parantheses:** (
-- **Double quotes:** "
-- **Quotes:** '
-- **Backticks:** `
+ - **Words:** w
+ - **Paragraph:** p
+ - **Sentence:** s
+ - **Tag:** t
+ - **Curly braces:** {
+ - **Brackets:** [
+ - **Parantheses:** (
+ - **Double quotes:** "
+ - **Quotes:** '
+ - **Backticks:** `
 
 
 Selecting types
 ---------------
 
-- **Inside:* i
-- **Around** a
+ - **Inside:* i
+ - **Around** a
 
 #### Examples
 
-- *Change content of first Double quotes on line:* ci"
-- *Delete current paragraph plus the following empyt lines:* dap
+ - *Change content of first Double quotes on line:* ci"
+ - *Delete current paragraph plus the following empyt lines:* dap
 
 
 Registers
 =========
 
-- **List registers:** :registers; :reg
-- **Delete text, but save it to register A:** "add
-- **Paste the contents of register A:** "ap
-- **Paste last yanked text:** "0p
+ - **List registers:** :registers; :reg
+ - **Delete text, but save it to register A:** "add
+ - **Paste the contents of register A:** "ap
+ - **Paste last yanked text:** "0p
 
 
 
 Actions in Insert Mode
 ======================
 
-- **Vim-style backspace:** <c-h>
-- **Deleting word backwards:** <c-w>
-- **Delete line backwards from current position:** <c-u>
-- **Insert literal character:** <c-u>
-- **Insert unicode character:** <c-u><Unicode Character Id>
-- **Leaving insert mode for one command:** <c-o>
-- **Insert stuff from register A:** <c-r>A
-- **Using the expression register:** <c-r>=r{Expression}
-- **Insert something at the beginning of the current line:** I
-- **Autoindent:** =
+ - **Vim-style backspace:** <c-h>
+ - **Deleting word backwards:** <c-w>
+ - **Delete line backwards from current position:** <c-u>
+ - **Insert literal character:** <c-u>
+ - **Insert unicode character:** <c-u><Unicode Character Id>
+ - **Leaving insert mode for one command:** <c-o>
+ - **Insert stuff from register A:** <c-r>A
+ - **Using the expression register:** <c-r>=r{Expression}
+ - **Insert something at the beginning of the current line:** I
+ - **Autoindent:** =
 
 
 Random actions and motions
 ==========================
 
-- **Perform the last action again:** .
-- **Undo:** u
-- **Redo:** <c-r>
-- **Open a file under the cursor:** gf
-- **Join current line with the following one by a space:** J
-- **Look up manual for command/program under the cursor:** K
-- **Increment number under cursor:** <c-a>
-- **Decrement number under cursor:** <c-x>
-- **Enforces spaces or tabs (depending on expandtab setting):** :retab!
-- **Reveal current directory:** :pwd
-- **Change current directory:** :cd
+ - **Perform the last action again:** .
+ - **Undo:** u
+ - **Redo:** <c-r>
+ - **Open a file under the cursor:** gf
+ - **Join current line with the following one by a space:** J
+ - **Look up manual for command/program under the cursor:** K
+ - **Increment number under cursor:** <c-a>
+ - **Decrement number under cursor:** <c-x>
+ - **Enforces spaces or tabs (depending on expandtab setting):** :retab!
+ - **Reveal current directory:** :pwd
+ - **Change current directory:** :cd
 
 #### Examples
 
  - *Increment all the itemnum attributes in an XML file*: :g/itemnum/normal 20^A
+
+
+Explorer (netrw)
+================
+
+netrw module usually comes with vim.
+
+Window
+------
+
+ - **Open Explorer in current window at current working directory:** :e.
+ - **Open Explorer in split window at current working directory:** :sp.
+ - **Open Explorer in vertical split window at current working directory:** :vs.
+ - **Open Explorer at directory of current file:** :Explorer
+ - **Open Explorer in vertical split window at directory of current file:** :Vex
+
+Manipulating filesystem
+-----------------------
+
+ - **Create a new file:** %
+ - **Create a new directory:** d
+ - **Rename a file/directory under the cursor:** R
+ - **Delete the file/directory under the cursor:** D
 
