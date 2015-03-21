@@ -1,7 +1,8 @@
 Movements
 =========
 
-### Basic motions
+Basic motions
+-------------
 
  - **Left:** h
  - **Down:** k
@@ -15,7 +16,9 @@ Movements
  - *Up 3 rows:* 3k
  - *Right 6 characters:* 6l
 
-### Word movements
+
+Word movements
+--------------
 
  - **Next normal-word:** w
  - **Previous normal-word:** b
@@ -30,7 +33,9 @@ Movements
  - *Next 2 whole-words:* 3W
  - *Previous 3 whole-words:* 3B
 
-### Fast movements
+
+Fast movements
+--------------
 
  - **Beginning of the file:** gg
  - **End of the file:** G
@@ -45,7 +50,9 @@ Movements
  - *Next 3rd paragraph:* 3}
  - *Previous 3rd paragraph:* 3{
 
-### Inline Search
+
+Inline Search
+-------------
 
  - **Jump to next character in line:** f
  - **Jump to previous character in line:** F
@@ -59,10 +66,28 @@ Movements
  - *Search the 2nd 'p' forward in line:* f2p
  - *Search the 2nd 'p' backwards in line:* F2p
 
-### Visual mode
+
+Visual mode
+-----------
 
  - **Toggle going between first and last characters of selection in visual mode:** o
  - **Toggle going between first and last characters of selection on current line in visual mode:** O
+
+
+Changelist
+==========
+
+ - **Navigate to previous change:** g;
+ - **Navigate to next change:** g,
+ - **Listing previous changes:** :changes
+
+
+Jumps
+-----
+
+ - **Navigate to previous jump:** <c-O>
+ - **Navigate to next jump:** <c-I>
+ - **Listing previous jumps:** :jumps
 
 
 
@@ -94,6 +119,7 @@ Basics
  - **Yanking 1 line:** Y
  - **Yanking 2 lines:** 2Y
 
+
 Advanced stuff
 --------------
 
@@ -118,6 +144,7 @@ Search
  - *Regular expressions search for finding any character followed by a vowel:* //.[aeiou]
  - *Delete everything up to a search 'fire' term:* d/fire
 
+
 Replace
 -------
 
@@ -132,6 +159,7 @@ Replace
  - *Replace all 'router' with 'dispatcher' in method in visual mode with confirmation:* v%:*'<, >'*s/router/dispatcher/gc
  - *Replace using last search:* :%s//replaceText/g
  - *Searching for text starting with a non-space, but the non-space excluded:* /[^ ]\zs(
+
 
 Delete
 ------
@@ -175,6 +203,7 @@ Jumping to positions
  - **Jump middle of the current screen:** M
  - **Jump last line of the current screen:** L
 
+
 Moving the screen
 -----------------
 
@@ -182,11 +211,13 @@ Moving the screen
  - **Move current line to bottom of the screen:** zb
  - **Move current line to middle of the screen:** zz
 
+
 Navigating wrapped lines
 ------------------------
 
  - **Go down a visual line (in wrapped lines):** gj
  - **Go to the beginning of the current visual line (in wrapped lines):** g0
+
 
 Markers
 -------
@@ -218,6 +249,8 @@ Pure buffer commands
  - **Delete current buffer:** :bd
  - **Delete buffer #12:** :bd12
  - **New buffer:** :enew
+ - **Switch between current and last buffer:** <c-^>
+
 
 Handling files
 --------------
@@ -228,6 +261,7 @@ Handling files
  - **Writing buffer to disk as filename:** :w filename
  - **Save file as filename:** :saveas filename
  - **Set file type:** :set ft=filetype
+
 
 New comment on the top of our 4 buffers
 ---------------------------------------
@@ -282,12 +316,23 @@ Windows
  - *5 columns narrower:* <c-w>5<
  - **Make windows as equal as possible:* <c-w>=
 
+### Miscelaneous
+
+ - Close all windows except the currently active one:** :on
+
+
 Tabs
 ----
 
  - **Open file on new tab:** tabedit filename; :tabe filename
  - **Next tab:** gt
  - **Previous tab:** gT
+ - **Move to tab #13:** 13gt
+ - **Close the current tab page and all its windows:** :tabc
+ - **Cloas all tabs except the currently active one:** :tabo
+ - **Move current tab to the end:** :tabmove
+ - **Move current tab to the beginning:** :tabmove 0
+- **Move current tab to be the second tab:** :tabmove 1
 
 
 
@@ -297,14 +342,14 @@ Indents and Folds
 Indents
 -------
 
- - **Indent current line:** >>
- - **Unindent current line:** <<
- - **Indent current lines:** 3>>
- - **Unndent current lines:** 3<<
- - **Indent in insert mode:** <c-T>
- - **Unindent in insert mode:** <c-D>
- - **Indent selected lines in visual mode 6 times:** 6>
- - **Unindent selected lines in visual mode 6 times:** 6<
+- **Indent current line:** >>
+- **Unindent current line:** <<
+- **Indent current lines:** 3>>
+- **Unndent current lines:** 3<<
+- **Indent in insert mode:** <c-T>
+- **Unindent in insert mode:** <c-D>
+- **Indent selected lines in visual mode 6 times:** 6>
+- **Unindent selected lines in visual mode 6 times:** 6<
 
 
 
@@ -315,7 +360,7 @@ Mappings
 
 Creating a new mapping:
 
-    :map ,rs :!bundle exec rspec<CR>
+:map ,rs :!bundle exec rspec<CR>
 
 ,rs will execute !bundle exec rspec now.
 
@@ -327,63 +372,69 @@ Text Objects
 Object types
 ------------
 
- - **Words:** w
- - **Paragraph:** p
- - **Sentence:** s
- - **Tag:** t
- - **Curly braces:** {
- - **Brackets:** [
- - **Parantheses:** (
- - **Double quotes:** "
- - **Quotes:** '
- - **Backticks:** `
+- **Words:** w
+- **Paragraph:** p
+- **Sentence:** s
+- **Tag:** t
+- **Curly braces:** {
+- **Brackets:** [
+- **Parantheses:** (
+- **Double quotes:** "
+- **Quotes:** '
+- **Backticks:** `
+
 
 Selecting types
 ---------------
 
- - **Inside:* i
- - **Around** a
+- **Inside:* i
+- **Around** a
 
 #### Examples
 
- - *Change content of first Double quotes on line:* ci"
- - *Delete current paragraph plus the following empyt lines:* dap
+- *Change content of first Double quotes on line:* ci"
+- *Delete current paragraph plus the following empyt lines:* dap
 
 
 Registers
 =========
 
- - **List registers:** :registers; :reg
- - **Delete text, but save it to register A:** "add
- - **Paste the contents of register A:** "ap
- - **Paste last yanked text:** "0p
+- **List registers:** :registers; :reg
+- **Delete text, but save it to register A:** "add
+- **Paste the contents of register A:** "ap
+- **Paste last yanked text:** "0p
 
 
 
 Actions in Insert Mode
 ======================
 
- - **Vim-style backspace:** <c-h>
- - **Deleting word backwards:** <c-w>
- - **Delete line backwards from current position:** <c-u>
- - **Insert literal character:** <c-u>
- - **Insert unicode character:** <c-u><Unicode Character Id>
- - **Leaving insert mode for one command:** <c-o>
- - **Insert stuff from register A:** <c-r>A
- - **Using the expression register:** <c-r>=r{Expression}
- - **Insert something at the beginning of the current line:** I
+- **Vim-style backspace:** <c-h>
+- **Deleting word backwards:** <c-w>
+- **Delete line backwards from current position:** <c-u>
+- **Insert literal character:** <c-u>
+- **Insert unicode character:** <c-u><Unicode Character Id>
+- **Leaving insert mode for one command:** <c-o>
+- **Insert stuff from register A:** <c-r>A
+- **Using the expression register:** <c-r>=r{Expression}
+- **Insert something at the beginning of the current line:** I
+- **Autoindent:** =
 
 
 Random actions and motions
 ==========================
 
- - **Perform the last action again:** .
- - **Undo:** u
- - **Open a file under the cursor:** gf
- - **Join current line with the following one by a space:** J
- - **Look up manual for command/program under the cursor:** K
- - **Increment number under cursor:** <c-a>
- - **Decrement number under cursor:** <c-x>
+- **Perform the last action again:** .
+- **Undo:** u
+- **Redo:** <c-r>
+- **Open a file under the cursor:** gf
+- **Join current line with the following one by a space:** J
+- **Look up manual for command/program under the cursor:** K
+- **Increment number under cursor:** <c-a>
+- **Decrement number under cursor:** <c-x>
+- **Enforces spaces or tabs (depending on expandtab setting):** :retab!
+- **Reveal current directory:** :pwd
+- **Change current directory:** :cd
 
 #### Examples
 
