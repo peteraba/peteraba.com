@@ -439,11 +439,13 @@ Random actions and motions
  - **Reveal current directory:** :pwd
  - **Change current directory:** :cd
  - **Insert newText in 3 consequtive rows at once:** <c-V>2jInewText<Esc>
+ - **Shortcut for copy:** :t
 
 #### Examples
 
  - *Increment all the itemnum attributes in an XML file*: :g/itemnum/normal 20^A
-
+ - *Copy line #9 to next line standing on line #16:* :9Gyy:16Gp, :9Gyy<c-o>p, :9yankp, :9yp, :9copy16, :9t16, :9t., -7t.
+ - *Copy 3 lines from #9 to next line standing on line #16:* :9,11t.
 
 
 Explorer (netrw)
