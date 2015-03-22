@@ -4,8 +4,8 @@ draft = false
 description = "Vim is awesome out of the box, with plugins it's unbelievable"
 keywords = ["vim"]
 tags = ["vim"]
-pubdate = "2015-03-22T09:48:31+01:00"
-date = "2015-03-22T09:48:31+01:00"
+pubdate = "2015-03-22T19:48:31+01:00"
+date = "2015-03-22T19:48:31+01:00"
 section = "blog"
 thumbnail = ""
 disqus_url = "http://peteraba.com/post/my-vim-plugins"
@@ -13,6 +13,10 @@ disqus_identifier = "my-vim-plugins"
 disqus_title = "My Vim Plugins"
 has_code = true
 +++
+
+My cheat sheet for my vim bundles.
+
+<!--more-->
 
 sensible.vim
 ------------

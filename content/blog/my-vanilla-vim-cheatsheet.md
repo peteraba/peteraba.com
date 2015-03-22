@@ -1,18 +1,22 @@
 +++
-title = "Vim"
+title = "My vanilla Vim cheatsheet"
 draft = false
-description = "My Vim cheatsheet in a blogpost"
-keywords = ["First tag"]
-tags = ["First tag"]
+description = "Vim is great, but learning to drive it is a long term process. This is my cheat sheet for vanilla installations."
+keywords = ["vim"]
+tags = ["vim"]
 pubdate = "2015-03-22T20:09:13+01:00"
 date = "2015-03-22T20:09:13+01:00"
 section = "blog"
 thumbnail = ""
-disqus_url = "http://peteraba.com/post/vim"
-disqus_identifier = "vim"
-disqus_title = "Vim"
+disqus_url = "http://peteraba.com/post/my-vanilla-vim-cheatsheet"
+disqus_identifier = "my-vanilla-vim-cheatsheet"
+disqus_title = "My vanilla Vim cheatsheet"
 has_code = true
 +++
+
+Vim is great, but learning to drive it is a long term process. This is my cheat sheet for vanilla installations.
+
+<!--more-->
 
 Movements
 ---------
