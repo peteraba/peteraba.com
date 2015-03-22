@@ -1,8 +1,7 @@
 Movements
-=========
+---------
 
-Basic motions
--------------
+### Basic motions
 
  - **Left:** h
  - **Down:** k
@@ -17,8 +16,7 @@ Basic motions
  - *Right 6 characters:* 6l
 
 
-Word movements
---------------
+### Word movements
 
  - **Next normal-word:** w
  - **Previous normal-word:** b
@@ -34,8 +32,7 @@ Word movements
  - *Previous 3 whole-words:* 3B
 
 
-Fast movements
---------------
+### Fast movements
 
  - **Beginning of the file:** gg
  - **End of the file:** G
@@ -51,8 +48,7 @@ Fast movements
  - *Previous 3rd paragraph:* 3{
 
 
-Inline Search
--------------
+### Inline Search
 
  - **Jump to next character in line:** f
  - **Jump to previous character in line:** F
@@ -67,23 +63,21 @@ Inline Search
  - *Search the 2nd 'p' backwards in line:* F2p
 
 
-Visual mode
------------
+### Visual mode
 
  - **Toggle going between first and last characters of selection in visual mode:** o
  - **Toggle going between first and last characters of selection on current line in visual mode:** O
 
 
 Change list
-===========
+-----------
 
  - **Navigate to previous change:** g;
  - **Navigate to next change:** g,
  - **Listing previous changes:** :changes
 
 
-Jumps
------
+### Jumps
 
  - **Navigate to previous jump:** <c-O>
  - **Navigate to next jump:** <c-I>
@@ -92,10 +86,9 @@ Jumps
 
 
 Editing
-=======
+-------
 
-Basics
-------
+### Basics
 
  - **Insert:** i
  - **Append:** a
@@ -120,18 +113,16 @@ Basics
  - **Yanking 2 lines:** 2Y
 
 
-Advanced stuff
---------------
+### Advanced stuff
 
  - **Insert something at the end of the current line:** A
 
 
 
 Search and Replace
-==================
+------------------
 
-Search
-------
+### Search
 
  - **Simple search:** /
  - **Simple search backwards:** ?
@@ -145,8 +136,7 @@ Search
  - *Delete everything up to a search 'fire' term:* d/fire
 
 
-Replace
--------
+### Replace
 
  - **Replace first 'Amber' with 'Ember' in line:** :s/Amber/Ember
  - **Replace all 'Amber' with 'Ember' in line:** :s/Amber/Ember/g
@@ -161,8 +151,7 @@ Replace
  - *Searching for text starting with a non-space, but the non-space excluded:* /[^ ]\zs(
 
 
-Delete
-------
+### Delete
 
  - **Delete first line that matches expression:** : :s/expression/d
 
@@ -172,15 +161,14 @@ Delete
  - **Delete all lines except that matches expression (with shortcut)**: :v/expression/d
 
 
-Advanced stuff
---------------
+### Advanced stuff
 
  - **Very magic mode (Most usual expression engine):** \v
 
 
 
 Macros 
-======
+-------
 
  - **Record empty command list into macro into register a:** qaq
  - **Replay macro from register a:** @a
@@ -193,10 +181,9 @@ Macros
 
 
 Advanced movements
-==================
+------------------
 
-Jumping to positions
---------------------
+### Jumping to positions
 
  - **Jump half a screen down:** <c-d>
  - **Jump half a screen up:** <c-u>
@@ -207,23 +194,20 @@ Jumping to positions
  - **Jump last line of the current screen:** L
 
 
-Moving the screen
------------------
+### Moving the screen
 
  - **Move current line to top of the screen:** zt
  - **Move current line to bottom of the screen:** zb
  - **Move current line to middle of the screen:** zz
 
 
-Navigating wrapped lines
-------------------------
+### Navigating wrapped lines
 
  - **Go down a visual line (in wrapped lines):** gj
  - **Go to the beginning of the current visual line (in wrapped lines):** g0
 
 
-Markers
--------
+### Markers
 
  - **Mark a line into register B:** mb
  - **Go to registered marker B:** 'b
@@ -231,7 +215,7 @@ Markers
 
 
 Command line
-============
+------------
 
  - *List files from current directory* :!ls
  - *Write date into current file:* :read !date
@@ -240,10 +224,9 @@ Command line
 
 
 Buffers
-=======
+-------
 
-Pure buffer commands
---------------------
+### Pure buffer commands
 
  - **List buffers:** :ls
  - **Next buffer:** :bn
@@ -255,8 +238,7 @@ Pure buffer commands
  - **Switch between current and last buffer:** <c-^>
 
 
-Handling files
---------------
+### Handling files
 
  - **Writing buffer to disk:** :w
  - **Force writing buffer to disk:** :w!
@@ -266,8 +248,7 @@ Handling files
  - **Set file type:** :set ft=filetype
 
 
-New comment on the top of our 4 buffers
----------------------------------------
+### New comment on the top of our 4 buffers
 
  - *Create macro in register A:* qa
  - *Jump to top of the file:* G
@@ -281,19 +262,18 @@ New comment on the top of our 4 buffers
 
 
 Windows and Tabs
-================
+----------------
 
-Windows
--------
+### Windows
 
-### Split Windows
+#### Split Windows
 
  - **Open (file in) horizontal split** :split [filename]; :sp [filename]
  - **Open (file in) vertical split:** :vpspit [filename]; :vsp [filename]
  - **Open buffer in horizontal split window:** :sb3
  - **Open buffer in vertical split window:** :vert sb3
 
-### Moving around
+#### Moving around
 
  - **Navigate to window to the left:** <c-w>h
  - **Navigate to window to the bottom:** <c-w>j
@@ -304,7 +284,7 @@ Windows
  - **Move to window to the top:** <c-w>K
  - **Move to window to the right:** <c-w>L
 
-### Resizing
+#### Resizing
 
  - **1 rows higher:** <c-w>+
  - **1 rows shorter:** <c-w>-
@@ -324,8 +304,7 @@ Windows
  - Close all windows except the currently active one:** :on
 
 
-Tabs
-----
+### Tabs
 
  - **Open file on new tab:** tabedit filename; :tabe filename
  - **Next tab:** gt
@@ -340,10 +319,9 @@ Tabs
 
 
 Indents and Folds
-=================
+-----------------
 
-Indents
--------
+### Indents
 
  - **Indent current line:** >>
  - **Unindent current line:** <<
@@ -357,7 +335,7 @@ Indents
 
 
 Mappings
-========
+--------
 
 ### Basics
 
@@ -370,10 +348,9 @@ Creating a new mapping:
 
 
 Text Objects
-============
-
-Object types
 ------------
+
+### Object types
 
  - **Words:** w
  - **Paragraph:** p
@@ -387,8 +364,7 @@ Object types
  - **Backticks:** `
 
 
-Selecting types
----------------
+### Selecting types
 
  - **Inside:* i
  - **Around** a
@@ -400,7 +376,7 @@ Selecting types
 
 
 Registers
-=========
+---------
 
  - **List registers:** :registers; :reg
  - **Delete text, but save it to register A:** "add
@@ -410,7 +386,7 @@ Registers
 
 
 Actions in Insert Mode
-======================
+----------------------
 
  - **Vim-style backspace:** <c-h>
  - **Deleting word backwards:** <c-w>
@@ -425,7 +401,7 @@ Actions in Insert Mode
 
 
 Random actions and motions
-==========================
+--------------------------
 
  - **Perform the last action again:** .
  - **Undo:** u
@@ -449,12 +425,11 @@ Random actions and motions
 
 
 Explorer (netrw)
-================
+----------------
 
 netrw module usually comes with vim.
 
-Window
-------
+### Window
 
  - **Open Explorer in current window at current working directory:** :e.
  - **Open Explorer in split window at current working directory:** :sp.
@@ -462,8 +437,7 @@ Window
  - **Open Explorer at directory of current file:** :Explorer
  - **Open Explorer in vertical split window at directory of current file:** :Vex
 
-Manipulating file system
-------------------------
+### Manipulating file system
 
  - **Create a new file:** %
  - **Create a new directory:** d
@@ -473,12 +447,11 @@ Manipulating file system
 
 
 Spell checking
-==============
+--------------
 
 Spell checking is built in into vim.
 
-Enabling
---------
+### Enabling
 
  - **Enabling spellcheking:** :set spell
  - **Setting British English spelling:** :spellang=en_gb
@@ -487,8 +460,7 @@ Enabling
  - **Setting language for buffer:** :bufdo set spellang=en
 
 
-Navigation
-----------
+### Navigation
 
  - **Next misspelling:** ]s
  - **Previous misspelling:** [s
