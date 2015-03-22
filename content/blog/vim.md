@@ -1,6 +1,6 @@
 +++
 title = "Vim"
-draft = true
+draft = false
 description = "My Vim cheatsheet in a blogpost"
 keywords = ["First tag"]
 tags = ["First tag"]

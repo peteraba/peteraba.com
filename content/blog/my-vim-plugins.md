@@ -1,6 +1,6 @@
 +++
 title = "My Vim Plugins"
-draft = true
+draft = false
 description = "Vim is awesome out of the box, with plugins it's unbelievable"
 keywords = ["vim"]
 tags = ["vim"]
