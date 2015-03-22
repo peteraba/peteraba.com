@@ -1,5 +1,6 @@
 +++
 title = "My Vim Plugins"
+draft = true
 description = "Vim is awesome out of the box, with plugins it's unbelievable"
 keywords = ["vim"]
 tags = ["vim"]
@@ -36,9 +37,9 @@ Surround.vim is all about "surroundings": parentheses, brackets, quotes, XML tag
 
 ### Surrounding
 
- - **Adding quotes around the word under cursor:** ysiw"
- - **Changing brackets to parentheses around the expression under the cursor:** cs[(
- - **Deleting tags around the current paragraph:** dst
+ - Adding quotes around the word under cursor: **ysiw"**
+ - Changing brackets to parentheses around the expression under the cursor: **cs[(**
+ - Deleting tags around the current paragraph: **dst**
 
 
 
@@ -57,34 +58,34 @@ Some complementary pairs of mappings.
 
 ### Line-wise mappings
 
- - **Add a new line above current:** [<Space>
- - **Add a new line below current:** ]<Space>
- - **Exchange current line with the one above:** [e
- - **Exchange current line with the one below:** ]e
+ - Add a new line above current: **[\<Space\>**
+ - Add a new line below current: **]\<Space\>**
+ - Exchange current line with the one above: **[e**
+ - Exchange current line with the one below: **]e**
 
 ### Encoding and decoding
 
- - **Encode XML/HTML:** [x
- - **Decode XML/HTML:** ]x
- - **Encode XML/HTML:** [x
- - **Decode XML/HTML:** ]x
+ - Encode XML/HTML: **[x**
+ - Decode XML/HTML: **]x**
+ - Encode XML/HTML: **[x**
+ - Decode XML/HTML: **]x**
 
 ### Option shortcuts
 
- - **Enable spelling:** [os
- - **Disable spelling:** ]os
- - **Toggle spelling:** cos
- - **Enable lists:** [ol
- - **Disable lists:** ]ol
- - **Toggle lists:** col
- - **Enable numbers:** [on
- - **Disable numbers:** ]on
- - **Toggle numbers:** con
+ - Enable spelling: **[os**
+ - Disable spelling: **]os**
+ - Toggle spelling: **cos**
+ - Enable lists: **[ol**
+ - Disable lists: **]ol**
+ - Toggle lists: **col**
+ - Enable numbers: **[on**
+ - Disable numbers: **]on**
+ - Toggle numbers: **con**
 
 ### Miscellaneous
 
- - **Go to next file in the directory:** [f
- - **Go to previous file in the directory:** ]f
+ - Go to next file in the directory: **[f**
+ - Go to previous file in the directory: **]f**
 
 
 
@@ -97,8 +98,8 @@ Increments and decrements dates and roman numbers as expected.
 
 ### Commands
 
- - **Increase date:** <c-a>
- - **Decrease date:** <c-x>
+ - Increase date: **\<c\-a\>**
+ - Decrease date: **\<c\-x\>**
 
 
 
@@ -111,18 +112,18 @@ Three superficially unrelated plugins in one that share a common theme: working 
 
 ### Abbreviation
 
- - **Add all insert abbreviations of separation and deseration:** :Abolish {despa,sepe}rat{e,es,ed,ing,ely,ion,ions,or}  {despe,sepa}rat{}
+ - Add all insert abbreviations of separation and deseration: **:Abolish {despa,sepe}rat{e,es,ed,ing,ely,ion,ions,or}  {despe,sepa}rat{}**
 
 ### Substitution
 
- - **Substitute variants of English words properly** :%Subvert/facilit{y,ies}/building{,s}/g
+ - Substitute variants of English words properly **:%Subvert/facilit{y,ies}/building{,s}/g**
 
 ### Coercion
 
- - **Coerce to snake case:** crs
- - **Coerce to mixed case:** crm
- - **Coerce to camel case:** crc
- - **Coerce to upper case:** cru
+ - Coerce to snake case: **crs**
+ - Coerce to mixed case: **crm**
+ - Coerce to camel case: **crc**
+ - Coerce to upper case: **cru**
 
 
 
@@ -135,15 +136,15 @@ Comment stuff out.
 
 ### Commands
 
- - **Comment out a line:** gcc
- - **Comment out a paragraph:** gcap
- - **Comment out selected lines:** gc
- - **Comment out lines as command:** :7,17Commentary
- - **Comment out found text:** :g/TODO/Commentary
+ - Comment out a line: **gcc**
+ - Comment out a paragraph: **gcap**
+ - Comment out selected lines: **gc**
+ - Comment out lines as command: **:7,17Commentary**
+ - Comment out found text: **:g/TODO/Commentary**
 
 #### Examples
 
- - **Comment out 3 lines:** 3gcc
+ - Comment out 3 lines: **3gcc**
 
 
 
@@ -174,19 +175,19 @@ Vim script for text filtering and alignment.
 
 ### Tabularizing
 
- - **Tabularizing selected text by equal size:** :*'<,'>*Tabularize /=
- - **Tabularizing all text by equal size:** :Tabularize /=
+ - Tabularizing selected text by equal size: **:*'<,'>*Tabularize /=**
+ - Tabularizing all text by equal size: **:Tabularize /=**
 
 #### Examples
 
- - **Tabularize javascript array by colons:** Vi}:Tab /:
- - **Tabularize javascript array by colons in a way that colons stay with the identifiers:** Vi}:Tab /:\zs
- - **Tabularize markdown table:** :Tab \|
+ - Tabularize javascript array by colons: **Vi}:Tab /:**
+ - Tabularize javascript array by colons in a way that colons stay with the identifiers: **Vi}:Tab /:\zs**
+ - Tabularize markdown table: **:Tab \|**
 
 ### Shortcuts
 
- - **Tabularize by equals sign:** <leader>a=
- - **Tabularize by colon sign:** <leader>a:/zs
+ - Tabularize by equals sign: **\<leader\>a=**
+ - Tabularize by colon sign: **\<leader\>a:/zs**
 
 
 
@@ -199,7 +200,7 @@ Full path fuzzy file, buffer, mru, tag, ... finder for Vim.
 
 ### Finding files
 
- - **Find files in project:** <c-p>
+ - Find files in project: **\<c\-p\>**
 
 
 
@@ -212,13 +213,13 @@ The ultimate snippet solution for Vim.
 
 ### Snippets
 
- - **Editing available snippets:** :UltiSnipsEdit
+ - Editing available snippets: **:UltiSnipsEdit**
 
 ### My shortcuts
 
- - **Insert snippet:** <c-e>
- - **Jump to next variable:** <c-b>
- - **Jump to previous variable:** <c-z>
+ - Insert snippet: **\<c\-e\>**
+ - Jump to next variable: **\<c\-b\>**
+ - Jump to previous variable: **\<c\-z\>**
 
 
 
@@ -240,7 +241,7 @@ Tagbar is a Vim plugin that provides an easy way to browse the tags of the curre
 
 ### My shortcuts
 
- - **Toggle Tagbar:** F8
+ - Toggle Tagbar: **F8**
 
 
 
@@ -262,11 +263,11 @@ A Vim plugin which shows a git diff in the 'gutter' (sign column). It shows whet
 
 ### Gutting git
 
- - **Jump to next hunk:** ]c
- - **Jump to previous hunk:** [c
- - **Stage hunk:** <leader>hs
- - **Revert hunk:** <leader>hr
- - **Preview hunk:** <leader>hp
+ - Jump to next hunk: **]c**
+ - Jump to previous hunk: **[c**
+ - Stage hunk: **\<leader\>hs**
+ - Revert hunk: **\<leader\>hr**
+ - Preview hunk: **\<leader\>hp**
 
 
 
@@ -297,39 +298,37 @@ Go (golang) support for Vim. It comes with pre-defined sensible settings (like a
 
 ### General
 
- - **Autocompletion via YouCompleteMe:** <c-x><c-o>
+ - Autocompletion via YouCompleteMe: **\<c\-x\>\<c\-o\>**
 
 
 ### Run Go commands
 
- - **Go Run:** <leader>r 
- - **Go Build:** <leader>b
- - **Go Test:** <leader>t
- - **Go Coverage:** <leader>c
- - **Show a list of interfaces which is implemented by the type under your cursor:** <leader>s
+ - Go Run: **\<leader\>r**
+ - Go Build: **\<leader\>b**
+ - Go Test: **\<leader\>t**
+ - Go Coverage: **\<leader\>c**
+ - Show a list of interfaces which is implemented by the type under your cursor: **\<leader\>s**
 
 
 ### Identifiers
 
- - **Open identifier in current view:** <leader>gd
- - **Open identifier in current view:** <leader>gd
- - **Open identifier in current view:** <leader>gd
- - **Open identifier in current view:** <leader>gd
+ - Open identifier in current view: **\<leader\>gd**
+ - Open identifier in a horizontal split: **\<leader\>gd**
+ - Open identifier in a vertical split: **\<leader\>gd**
+ - Open identifier in a new tab: **\<leader\>gd**
 
 
 ### Go Docs
 
- - **Open docs in current view:** <leader>gd
- - **Open docs in current view:** <leader>gd
- - **Open docs in current view:** <leader>gd
- - **Open docs in current view:** <leader>gd
- - **Open docs in current view:** <leader>gd
+ - Open docs in current view: **\<leader\>gd**
+ - Open docs in a vertical split: **\<leader\>gv**
+ - Open docs in a browser: **\<leader\>gb**
 
 ### Miscellaneous
 
- - **Show a list of interfaces which is implemented by the type under your cursor:** <leader>s
- - **Show type info for the word under your cursor:** <leader>i
- - **Rename the identifier under the cursor to a new name:** <leader>e
+ - Show a list of interfaces which is implemented by the type under your cursor: **\<leader\>s**
+ - Show type info for the word under your cursor: **\<leader\>i**
+ - Rename the identifier under the cursor to a new name: **\<leader\>e**
 
 
 
