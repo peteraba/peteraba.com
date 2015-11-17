@@ -136,7 +136,8 @@ Editing
 
 ### Advanced stuff
 
- - Insert something at the end of the current line: **A**
+ - Insert text at the beginning of the current line: **I**
+ - Insert text at the end of the current line: **A**
 
 
 
@@ -146,10 +147,11 @@ Search and Replace
 ### Search
 
  - Simple search: **/**
- - Simple search backwards: **?**
+ - Simple Close backwards: **?**
  - Jump to next occurence of word under cursor: <strong>*</strong>
  - Jump to previous occurence of word under cursor: **#**
  - Jump to matching curly brace, parantheses or bracket under the cursor: **%**
+ - Hide search highlights: **:noh**
 
 #### Examples
 
@@ -300,17 +302,17 @@ Windows and Tabs
 - Navigate to window to the bottom: **\<c\-w\>j**
 - Navigate to window to the top: **\<c\-w\>k**
 - Navigate to window to the right: **\<c\-w\>l**
-- Move to window to the left: **\<c\-w\>H**
-- Move to window to the bottom: **\<c\-w\>J**
-- Move to window to the top: **\<c\-w\>K**
-- Move to window to the right: **\<c\-w\>L**
+- Move the current window to the left: **\<c\-w\>H**
+- Move the current window to the bottom: **\<c\-w\>J**
+- Move the current window window to the top: **\<c\-w\>K**
+- Move the current window to the right: **\<c\-w\>L**
 
 #### Resizing
 
-- 1 rows higher: **\<c\-w\>+**
-- 1 rows shorter: **\<c\-w\>-**
-- 1 columns wider: **\<c\-w\>>**
-- 1 columns narrower: **\<c\-w\><**
+- Make the current window 1 row higher: **\<c\-w\>+**
+- Make the current window 1 row shorter: **\<c\-w\>-**
+- Make the current window 1 column wider: **\<c\-w\>>**
+- Make the current window 1 column narrower: **\<c\-w\><**
 
 #### Examples
 
@@ -318,7 +320,7 @@ Windows and Tabs
 - *5 rows shorter:* **\<c\-w\>5-**
 - *5 columns wider:* **\<c\-w\>5>**
 - *5 columns narrower:* **\<c\-w\>5<**
-- Make windows as equal as possible: **\<c\-w\>=**
+- Make windows on current tab as equal as possible: **\<c\-w\>=**
 
 ### Miscellaneous
 
@@ -332,7 +334,7 @@ Windows and Tabs
 - Previous tab: **gT**
 - Move to tab #13: **13gt**
 - Close the current tab page and all its windows: **:tabc**
-- Cloas all tabs except the currently active one: **:tabo**
+- Close all tabs except the currently active one: **:tabo**
 - Move current tab to the end: **:tabmove**
 - Move current tab to the beginning: **:tabmove 0**
 - Move current tab to be the second tab: **:tabmove 1**
