@@ -29,7 +29,9 @@ host$ docker pull peteraba/php:5.6-cli
 host$ git clone git@github.com:magento/magento2.git src
 host$ cd src
 host$ git checkout 2.0.0
-host$ docker run -it -v "$PWD":/src:ro --name=mag2 --rm peteraba/php:5.6-cli-dev zsh
+host$ cd ..
+host$ wget https://raw.githubusercontent.com/peteraba/docker-box-php/master/base/002-example.ini
+host$ docker run -it -v "$PWD"/src:/src:ro -v "$PWD"/002-example.ini:/usr/local/etc/php/conf.d/002-example.ini --name=mag2 --rm peteraba/php:5.6-cli bash
 container$ time phpmetrics --report-cli /src/app/code
 exit
 ```
@@ -42,10 +44,10 @@ So maybe it's been a bit too much at first so let's break it down:
  - And we docker run to create a new instance (so called container) from the image we downloaded in the first point. This one might be a bit complex at first, so I'll break it further down:
    - *peteraba/php* is an image name that docker will look for. It will first look for it on the local machine. If not found it will look for the php image of the user peteraba on dockerhub.
    - *5.6-cli-dev* is a tag name which specifies a version of the image. If not provided, docker will assume `latest`.
-   - *docker run peteraba/php:5.6-cli-dev zsh* creates and starts a new container from the image and execute the zsh command. By default docker will run in the background and shut the docker container down as soon as the command finishes, which in this case would be a matter of miliseconds.
-   - *docker run -it peteraba/php:5.6-cli-dev zsh* is the same command as before but with the instructions of starting the container in interactive mode and with a pseudo-tty. This will basically allow you to interact with the container
-   - *docker run -it -v "$PWD":/src:ro peteraba/php:5.6-cli-dev zsh* attaches the current directory as /src to the docker container, making it possible to access the magento codebase. The optional `:ro` at the end of the directive makes the directory read-only within the container. Technically the directory is linked so changes made to it on the host will be represented inside the container immediately. (At least on OSX and Linux it is so.) Both the local and container paths have to be absolute, hence the "$PWD". On Windows you probably need to provide a real absolute path or come up with a different solution.
-   - *docker run -it -v "$PWD":/src/:ro --name=mag2 --rm peteraba/php:5.6-cli-dev zsh* is our final command here. The --name directive tells docker to start to create the new container with the name 'mag2'. Since you can only have one container with a certain name, this command would fail the second time if you didn't remove the existing container first. That's what --rm takes care of.
+   - *docker run peteraba/php:5.6-cli-dev bash* creates and starts a new container from the image and execute the bash command. By default docker will run in the background and shut the docker container down as soon as the command finishes, which in this case would be a matter of miliseconds.
+   - *docker run -it peteraba/php:5.6-cli-dev bash* is the same command as before but with the instructions of starting the container in interactive mode and with a pseudo-tty. This will basically allow you to interact with the container
+   - *docker run -it -v "$PWD":/src:ro peteraba/php:5.6-cli-dev bash* attaches the current directory as /src to the docker container, making it possible to access the magento codebase. The optional `:ro` at the end of the directive makes the directory read-only within the container. Technically the directory is linked so changes made to it on the host will be represented inside the container immediately. (At least on OSX and Linux it is so.) Both the local and container paths have to be absolute, hence the "$PWD". On Windows you probably need to provide a real absolute path or come up with a different solution.
+   - *docker run -it -v "$PWD":/src/:ro --name=mag2 --rm peteraba/php:5.6-cli-dev bash* is our final command here. The --name directive tells docker to start to create the new container with the name 'mag2'. Since you can only have one container with a certain name, this command would fail the second time if you didn't remove the existing container first. That's what --rm takes care of.
  - Once inside, we can just use the pre-installed phpmetrics tool and request a cli output.
  - Type exit to get back to your host and shut down the container.
 
@@ -57,19 +59,25 @@ In software development, new versions are almost always advertised with performa
 Let's see how long it takes for 5.6 to finish again:
 
 ```bash
-host$ docker run -it -v "$PWD":/src:ro --name=mag2 --rm peteraba/php:5.6-cli-dev zsh
+host$ docker run -it -v "$PWD"/src:/src:ro -v "$PWD"/002-example.ini:/usr/local/etc/php/conf.d/002-example.ini --name=mag2 --rm peteraba/php:5.6-cli bash
 container$ time phpmetrics --report-cli /src/app/code
 container$ exit
 ```
+real	8m11.284s
+user	3m13.180s
+sys	2m15.960s
 
 And now 7.0-RC7 is up:
 
 ```bash
 host$ docker pull peteraba/php:7.0-cli
-host$ docker run -it -v "$PWD":/src:ro --name=mag2 --rm peteraba/php:7.0-cli-dev zsh
+host$ docker run -it -v "$PWD"/src:/src:ro -v "$PWD"/002-example.ini:/usr/local/etc/php/conf.d/002-example.ini --name=mag2 --rm peteraba/php:7.0-cli bash
 container$ time phpmetrics --report-cli /src/app/code
 container$ exit
 ```
+real	9m24.986s
+user	3m7.720s
+sys	3m4.350s
 
 Impressive, isn't it? Next time we'll look at an example of using multiple containers together and then perhaps building an image too. Until then, check out the tools pre-installed in [my php images](https://hub.docker.com/r/peteraba/php/) and give me feedback using the regular forums.
 
