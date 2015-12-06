@@ -4,7 +4,7 @@ draft = true
 description = "Here's how I use docker to test out new tools"
 keywords = ["php", "docker"]
 tags = ["php", "docker"]
-pubdate = "2015-11-17T01:51:54+01:00"
+pubdate = "2015-12-06T11:53:23+01:00"
 date = "2015-11-17T01:51:55+01:00"
 section = "blog"
 thumbnail = ""
@@ -22,7 +22,7 @@ Once you have it up and running feel free read [the user guide](http://docs.dock
 
 #### Check the magento2 codebase with phpmetrics in minutes
 
-[Magento 2](https://github.com/magento/magento2.git) is out, let's get some idea about the code base by running [phpmetrics](http://www.phpmetrics.org/) on it.
+[Magento 2](https://github.com/magento/magento2.git) is out, so let's get some idea about the code base by running [phpmetrics](http://www.phpmetrics.org/) on it.
 
 ```bash
 host$ docker pull peteraba/php:5.6-cli
@@ -33,7 +33,7 @@ host$ cd ..
 host$ wget https://raw.githubusercontent.com/peteraba/docker-box-php/master/base/002-example.ini
 host$ docker run -it -v "$PWD"/src:/src:ro -v "$PWD"/002-example.ini:/usr/local/etc/php/conf.d/002-example.ini --name=mag2 --rm peteraba/php:5.6-cli bash
 container$ time phpmetrics --report-cli /src/app/code
-exit
+container$ exit
 ```
 
 So maybe it's been a bit too much at first so let's break it down:
@@ -67,7 +67,7 @@ real	8m11.284s
 user	3m13.180s
 sys	2m15.960s
 
-And now 7.0-RC7 is up:
+And now 7.0 is up:
 
 ```bash
 host$ docker pull peteraba/php:7.0-cli
@@ -79,5 +79,7 @@ real	9m24.986s
 user	3m7.720s
 sys	3m4.350s
 
-Impressive, isn't it? Next time we'll look at an example of using multiple containers together and then perhaps building an image too. Until then, check out the tools pre-installed in [my php images](https://hub.docker.com/r/peteraba/php/) and give me feedback using the regular forums.
+Seems like PHP 7 performed worse on than 5.6 for this particular case. It might come from the fact that this is a command line tool and not a web app, might be because the ast PHP module is enabled for PHP 7 while it doesn't exist for 5.6 and so on and so forth. Obviously we might also test the performance of the two versions further and report to the maintainer of phpmetrics or the PHP team. None the less, we were able to test this in very little time, thanks to docker.
+
+Next time we'll look at an example of using multiple containers together and then perhaps building an image too. Until then, check out the tools pre-installed in [my php images](https://hub.docker.com/r/peteraba/php/) and give me feedback using the regular forums.
 
