@@ -401,11 +401,24 @@ Text Objects
 Registers
 ---------
 
-- List registers: :registers; **:reg**
+- List registers: :registers; **:reg**, **:registers**
+- Read current line into register A: **"ayy**
+- Append the current line to a register A: **"Ayy**
 - Delete text, but save it to register A: **"add**
 - Paste the contents of register A: **"ap**
+- Paste the contents of register A above current line: **"aP**
 - Paste last yanked text: **"0p**
+- Unnamed register: **"**
+- Numbered registeres: **0-9**
+- Small delete register: **-**
+- Filename register: **%**
+- Search register: **/**
 
+### Advanced Register Usage
+
+- Execute a line as a macro via the unnamed register: **0y$@"**
+- Delete a row, then a second one, then paste the first one: **dd"_ddp**
+- Insert "4" after the cursor with the expression register: **"=2*2<Enter>p**
 
 
 Actions in Insert Mode
@@ -490,6 +503,28 @@ Spell checking is built in into vim.
  - Spelling suggestions: **z=**
  - Adding word to known words: **zg**
  - Removing word from known words: **zw**
- - Unding adding word to known words: **zug**
- - Unding removing word to known words: **zuw**
+ - Undoing adding word to known words: **zug**
+ - Undoing removing word to known words: **zuw**
+
+Command window
+--------------
+
+ - Open command history from Normal mode: **q:**
+ - Open command history from Command mode: **Ctrl+F**
+ - Open search history for forward search: **q/**
+ - Open search history for backward search: **q?**
+
+Settings
+--------
+
+### Pasting
+
+ - Enable pasting without automatic indentation: **:set paste**
+ - Disable pasting without automatic indentation: **:set nopaste**
+
+### Searching
+
+ - Show matches while typing: **:set incsearch**
+ - Highlight search results: **:set hlsearch**
+ - Disable highlighting search results: **:set nohlsearch**
 
