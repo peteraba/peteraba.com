@@ -13,7 +13,7 @@ metaDataFormat = "toml"
 theme = "hugo-bootstrap"
 
 # Pagination
-paginate = 10
+paginate = 50
 paginatePath = "page"
 
 # Enable Disqus integration
@@ -39,6 +39,7 @@ disqusShortname = "peteraba"
     brand = "foobar"
     topline = "few words about your site"
     footline = "code with <i class='fa fa-heart'></i>"
+    showRightSidebar = true
 
     # Text for the top menu link, which goes the root URL for the site.
     # Default (if omitted) is "Home".
@@ -46,19 +47,19 @@ disqusShortname = "peteraba"
 
     # Select a syntax highight.
     # Check the static/css/highlight directory for options.
-    highlight = "default"
+    highlight = "monokai"
 
     # Google Analytics.
     googleAnalytics = "Your Google Analytics tracking code"
 
     # Sidebar social links.
-    github = "enten/hugo-boilerplate" # Your Github profile ID
+    github = "peteraba" # Your Github profile ID
     bitbucket = "" # Your Bitbucket profile ID
     linkedin = "" # Your LinkedIn profile ID (from public URL)
     googleplus = "" # Your Google+ profile ID
     facebook = "" # Your Facebook profile ID
-    twitter = "" # Your Twitter profile ID
-    youtube = ""  # Your Youtube channel ID
+    twitter = "zpeteraba" # Your Twitter profile ID
+    youtube = "devmonk"  # Your Youtube channel ID
     flattr = ""  # populate with your flattr uid
 
 [blackfriday]
