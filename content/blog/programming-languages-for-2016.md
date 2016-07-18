@@ -5,10 +5,12 @@ description = "Programming languages I'd like to learn in 2016"
 draft = true
 keywords = ["key", "words"]
 tags = ["one", "two"]
-title = "learning languages for 2016"
+title = "Learning Languages for 2016"
 topics = ["topic 1"]
 type = "post"
-
+disqus_url = "https://peteraba.com/post/programming-languages-for-2016"
+disqus_identifier = "programming-languages-for-2016"
+disqus_title = "Programming languages I'd like to learn in 2016"
 +++
 
 So I love learning new languages, especially ones that computers understand. Learning German is a bit less fun for me personally.

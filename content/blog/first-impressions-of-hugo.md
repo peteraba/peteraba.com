@@ -5,7 +5,7 @@ tags = ["open source", "go", "hugo"]
 keywords = ["open source", "go", "hugo"]
 disqus_url = "https://peteraba.com/post/first-impressions-of-hugo"
 disqus_identifier = "first-impressions-of-hugo"
-disqus_title = "first impressions of hugo"
+disqus_title = "First Impressions of Hugo"
 +++
 
 Prerequisite

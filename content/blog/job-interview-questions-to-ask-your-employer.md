@@ -1,5 +1,5 @@
 +++
-title = "job interview questions to ask your employer"
+title = "Job Interview Questions to ask Your Employer"
 draft = false
 date = "2014-11-02T10:37:56+02:00"
 pubdate = "2014-11-02T10:37:56+02:00"
@@ -8,7 +8,7 @@ keywords = ["career"]
 section = "blog"
 disqus_url = "https://peteraba.com/post/job-interview-questions-to-ask-your-employer/"
 disqus_identifier = "job-interview-questions-to-ask-your-employer"
-disqus_title = "job-interview-questions-to-ask-your-employer"
+disqus_title = "Job Interview Questions to ask Your Employer"
 +++
 
 **Note:** I'm by no means an expert in this. I just made these questions up for my own sake. I did however look at posts

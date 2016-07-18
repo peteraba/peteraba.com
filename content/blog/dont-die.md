@@ -1,5 +1,5 @@
 +++
-title = "don't die"
+title = "Don't Die"
 description = "Using Xdebug instead of exit and die"
 keywords = ["php", "xdebug"]
 tags = ["php", "xdebug"]
@@ -9,7 +9,7 @@ section = "blog"
 thumbnail = "/images/dont-die.png"
 disqus_url = "https://peteraba.com/post/dont-die/"
 disqus_identifier = "dont-die"
-disqus_title = "don't die"
+disqus_title = "Don't Die"
 has_code = true
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "about me"
+title = "About Me"
 keywords = []
 tags = []
 pubdate = "2014-08-01"
@@ -18,8 +18,7 @@ Instead of boring you to death, here's a short list of things I truly value and 
 
   * Explicitly declare and isolate dependencies
   * Treat backing services as attached resources
-  * Prefer stateless over stateful, separate the two religiously.
-  * Scale out via the process model
+  * Prefer stateless over stateful
   * Treat logs as event streams
 
 ..and everything else from **[12factor manifesto](http://12factor.net/)**.
@@ -31,7 +30,6 @@ From a personal perspective I love:
    * Music (mostly <a href="http://peethallgatzene.tumblr.com" target="_blank">rock and metal</a>)
    * Beer
    * Travelling
-   * Winter sports
 
 And some more of course.
 

@@ -1,13 +1,13 @@
 +++
 date = 2014-10-05T19:08:13Z
 draft = true
-title = "phpmetrics of popular php projects 2"
+title = "PhpMetrics of Popular PHP Projects 2"
 description = "Using phpmetrics to generate static analysis of popular php projects 2"
 tags = ["phpmetrics", "php", "metrics", "go", "phpmetricsall"]
 section = "blog"
 disqus_url = "https://peteraba.com/post/phpmetrics-of-popular-php-projects-2/"
 disqus_identifier = "phpmetrics-of-popular-php-projects-2"
-disqus_title = "phpmetrics of popular php projects 2"
+disqus_title = "PhpMetrics of Popular PHP Projects 2"
 +++
 
 [agavi-report]: /metrics/phpmetrics2/agavi/report.html "Report for agavi"

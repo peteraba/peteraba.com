@@ -1,5 +1,5 @@
 +++
-title = "phpstorm and intellij tips"
+title = "PhpStorm and IntelliJ tips"
 draft = false
 date = "2014-11-02T20:20:00+02:00"
 pubdate = "2014-11-02T20:16:00+02:00"
@@ -8,7 +8,7 @@ keywords = ["ide", "phpstorm", "intellij"]
 section = "blog"
 disqus_url = "https://peteraba.com/post/phpstorm-and-intellij-tips/"
 disqus_identifier = "phpstorm-and-intellij-tips"
-disqus_title = "phpstorm and intellij tips"
+disqus_title = "PhpStorm and IntelliJ tips"
 +++
 
 PhpStorm

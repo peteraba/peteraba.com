@@ -1,5 +1,5 @@
 +++
-title = "frontend draft"
+title = "Frontend Draft"
 date = 2014-08-09T21:58:02Z
 draft = true
 tags = ["brick", "polymer", "angular", "ember"]

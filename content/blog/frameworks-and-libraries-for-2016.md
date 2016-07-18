@@ -5,10 +5,12 @@ description = "Frameworks and libraries I'd like to learn in 2016"
 draft = true
 keywords = ["key", "words"]
 tags = ["one", "two"]
-title = "frameworks and libraries for 2016"
+title = "Frameworks and Libraries for 2016"
 topics = ["topic 1"]
 type = "post"
-
+disqus_url = "https://peteraba.com/post/frameworks-and-libraries-for-2016"
+disqus_identifier = "frameworks-and-libraries-for-2016"
+disqus_title = "Frameworks and Libraries for 2016"
 +++
 
 My first post of the year was about programming languages I'm interested in learning, but there are so many other technologies on the waiting list, that it deserves another post I think. Just to make the review in 2017 that much sweeter or funnier.

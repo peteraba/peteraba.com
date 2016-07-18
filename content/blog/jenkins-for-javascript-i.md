@@ -1,5 +1,5 @@
 +++
-title = "jenkins for javascript I."
+title = "Jenkins for Javascript I."
 description = "I actually thought that setting up Jenkins to properly test a PHP based application is hard. Then I tried to do the same for JavaScript..."
 keywords = ["jenkins", "javascript", "continious integration"]
 tags = ["jenkins", "javascript", "continious integration"]
@@ -10,7 +10,7 @@ section = "blog"
 thumbnail = "/images/jenkins-for-javascript-i.png"
 disqus_url = "https://peteraba.com/post/jenkins-for-javascript-i/"
 disqus_identifier = "jenkins-for-javascript-i"
-disqus_title = "jenkins for javascript I."
+disqus_title = "Jenkins for Javascript I."
 +++
 
 I actually thought that setting up Jenkins to properly test a PHP based application is hard. Then I tried to do the same for JavaScript... I'm currently half way there, but I think I already learnt enough to make up for a quick post.
