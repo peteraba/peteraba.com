@@ -2,8 +2,8 @@
 date = 2014-08-09T23:16:51Z
 draft = true
 title = "installing php5.5 on debian wheezy"
-disqus_url = "http://peteraba.com/post/dont-die/"
-disqus_identifier = "peteraba http://peteraba.com/?p=peteraba"
+disqus_url = "https://peteraba.com/post/dont-die/"
+disqus_identifier = "peteraba https://peteraba.com/?p=peteraba"
 disqus_title = "don't die"
 +++
 

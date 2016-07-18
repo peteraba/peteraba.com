@@ -40,3 +40,11 @@ header.hat {
     margin-bottom: 1em;
     padding: 0;
 }
+
+div.content img {
+    max-width: 100%;
+}
+
+.metas {
+    margin-bottom: -10px;
+}

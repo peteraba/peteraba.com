@@ -3,7 +3,7 @@ date = 2014-08-06T17:23:51Z
 title = "First Impressions of Hugo"
 tags = ["open source", "go", "hugo"]
 keywords = ["open source", "go", "hugo"]
-disqus_url = "http://peteraba.com/post/first-impressions-of-hugo"
+disqus_url = "https://peteraba.com/post/first-impressions-of-hugo"
 disqus_identifier = "first-impressions-of-hugo"
 disqus_title = "first impressions of hugo"
 +++

@@ -4,8 +4,8 @@ keywords = ["linux", "osx"]
 tags = ["linux", "osx"]
 draft = true
 title = "perfect desktop"
-disqus_url = "http://peteraba.com/post/perfect-desktop/"
-disqus_identifier = "peteraba http://peteraba.com/?p=peteraba"
+disqus_url = "https://peteraba.com/post/perfect-desktop/"
+disqus_identifier = "peteraba https://peteraba.com/?p=peteraba"
 disqus_title = "perfect desktop"
 has_code = true
 +++

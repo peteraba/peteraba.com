@@ -3,7 +3,7 @@ title = "Peter on Dev stuff"
 languageCode = "en-us"
 
 # Copyright
-copyright = "(c) 2013 Peter Aba."
+copyright = "(c) 2012- Peter Aba."
 
 # Metadata format
 # "yaml", "toml", "json"
@@ -24,8 +24,7 @@ disqusShortname = "peteraba"
     code = "/:slug/"
 
 [taxonomies]
-    tag = "tags"
-    topic = "topics"
+    tag = "Tags"
 
 [author]
     name = "Peter Aba"

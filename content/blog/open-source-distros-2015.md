@@ -4,8 +4,8 @@ keywords = ["linux", "bsd", "ubuntu", "debian", "opensuse", "ghostbsd", "", ""]
 tags = ["linux", "bsd"]
 draft = true
 title = "linux distros 2015"
-disqus_url = "http://peteraba.com/post/open-source-distros-2015/"
-disqus_identifier = "peteraba http://peteraba.com/?p=peteraba"
+disqus_url = "https://peteraba.com/post/open-source-distros-2015/"
+disqus_identifier = "peteraba https://peteraba.com/?p=peteraba"
 disqus_title = "open source distros 2015"
 has_code = false
 +++

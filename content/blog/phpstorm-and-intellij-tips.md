@@ -6,7 +6,7 @@ pubdate = "2014-11-02T20:16:00+02:00"
 tags = ["ide"]
 keywords = ["ide", "phpstorm", "intellij"]
 section = "blog"
-disqus_url = "http://peteraba.com/post/phpstorm-and-intellij-tips/"
+disqus_url = "https://peteraba.com/post/phpstorm-and-intellij-tips/"
 disqus_identifier = "phpstorm-and-intellij-tips"
 disqus_title = "phpstorm and intellij tips"
 +++

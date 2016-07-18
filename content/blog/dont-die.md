@@ -1,13 +1,13 @@
 +++
 title = "don't die"
-description = "Using "
+description = "Using Xdebug instead of exit and die"
 keywords = ["php", "xdebug"]
 tags = ["php", "xdebug"]
 pubdate = "2012-11-20"
 date = "2012-11-20"
 section = "blog"
 thumbnail = "/images/dont-die.png"
-disqus_url = "http://peteraba.com/post/dont-die/"
+disqus_url = "https://peteraba.com/post/dont-die/"
 disqus_identifier = "dont-die"
 disqus_title = "don't die"
 has_code = true
@@ -29,7 +29,7 @@ Here's what you should end up with:
 
 - - -
 
-Here's my xdebug.ini:
+Here's my Xdebug.ini:
 <pre><code class="ini">zend_extension = /opt/php54/lib/php/extensions/no-debug-non-zts-20100525/xdebug.so
 ;http://xdebug.org/docs/all_settings
 xdebug.remote_enable=1
@@ -54,7 +54,7 @@ You should make sure you're server is set up correctly.
 
 - - -
 
-You only need to worry about the xdebug port here, it defaults to 9000.
+You only need to worry about the Xdebug port here, it defaults to 9000.
 
 ![Debug Settings](/media/dont-die/xdebug-phpstorm-debug.png)
 
