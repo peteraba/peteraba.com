@@ -1,10 +1,12 @@
 +++
+draft = false
+section = "blog"
 title = "Debugging CLI Scripts with Xdebug"
-keywords = ["php", "xdebug"]
-tags = ["php", "xdebug"]
+description = ""
 pubdate = 2012-11-27T00:00:00Z
 date = 2012-11-27T00:00:00Z
-section = "blog"
+keywords = ["php", "xdebug"]
+tags = ["php", "xdebug"]
 thumbnail = "/images/debugging-cli-scripts-with-xdebug.png"
 disqus_url = "https://peteraba.com/blog/debugging-cli-scripts-with-xdebug/"
 disqus_identifier = "debugging-cli-scripts-with-xdebug"

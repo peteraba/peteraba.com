@@ -1,9 +1,12 @@
 +++
+draft = true
+section = "blog"
+title = "Perfect Desktop"
+description = ""
+pubdate = "2015-01-17T23:55:07+02:00"
 date = "2015-01-17T23:55:07+02:00"
 keywords = ["linux", "osx"]
 tags = ["linux", "osx"]
-draft = true
-title = "Perfect Desktop"
 disqus_url = "https://peteraba.com/post/perfect-desktop/"
 disqus_identifier = "peteraba https://peteraba.com/?p=peteraba"
 disqus_title = "Perfect Desktop"

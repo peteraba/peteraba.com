@@ -1,13 +1,12 @@
 +++
-author = "author"
-date = "2016-03-13T21:56:44+01:00"
-description = "Frameworks and libraries I'd like to learn in 2016"
 draft = true
+section = "blog"
+title = "Frameworks and Libraries for 2016"
+description = "Frameworks and libraries I'd like to learn in 2016"
+pubdate = "2016-03-13T21:56:44+01:00"
+date = "2016-03-13T21:56:44+01:00"
 keywords = ["key", "words"]
 tags = ["one", "two"]
-title = "Frameworks and Libraries for 2016"
-topics = ["topic 1"]
-type = "post"
 disqus_url = "https://peteraba.com/post/frameworks-and-libraries-for-2016"
 disqus_identifier = "frameworks-and-libraries-for-2016"
 disqus_title = "Frameworks and Libraries for 2016"

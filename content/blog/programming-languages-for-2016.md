@@ -1,13 +1,12 @@
 +++
-author = "author"
-date = "2016-03-13T21:26:13+01:00"
-description = "Programming languages I'd like to learn in 2016"
 draft = true
+section = "blog"
+title = "Learning Languages for 2016"
+description = "Programming languages I'd like to learn in 2016"
+pubdate = "2016-03-13T21:26:13+01:00"
+date = "2016-03-13T21:26:13+01:00"
 keywords = ["key", "words"]
 tags = ["one", "two"]
-title = "Learning Languages for 2016"
-topics = ["topic 1"]
-type = "post"
 disqus_url = "https://peteraba.com/post/programming-languages-for-2016"
 disqus_identifier = "programming-languages-for-2016"
 disqus_title = "Programming languages I'd like to learn in 2016"

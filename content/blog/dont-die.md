@@ -1,11 +1,12 @@
 +++
+draft = false
+section = "blog"
 title = "Don't Die"
 description = "Using Xdebug instead of exit and die"
-keywords = ["php", "xdebug"]
-tags = ["php", "xdebug"]
 pubdate = "2012-11-20"
 date = "2012-11-20"
-section = "blog"
+keywords = ["php", "xdebug"]
+tags = ["php", "xdebug"]
 thumbnail = "/images/dont-die.png"
 disqus_url = "https://peteraba.com/post/dont-die/"
 disqus_identifier = "dont-die"

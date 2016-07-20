@@ -1,12 +1,12 @@
 +++
+draft = false
+section = "blog"
 title = "Jenkins for Javascript I."
 description = "I actually thought that setting up Jenkins to properly test a PHP based application is hard. Then I tried to do the same for JavaScript..."
-keywords = ["jenkins", "javascript", "continious integration"]
-tags = ["jenkins", "javascript", "continious integration"]
 pubdate = "2012-11-21"
 date = "2012-11-21"
-topics = []
-section = "blog"
+keywords = ["jenkins", "javascript", "continious integration"]
+tags = ["jenkins", "javascript", "continious integration"]
 thumbnail = "/images/jenkins-for-javascript-i.png"
 disqus_url = "https://peteraba.com/post/jenkins-for-javascript-i/"
 disqus_identifier = "jenkins-for-javascript-i"

@@ -1,11 +1,12 @@
 +++
-title = "Job Interview Questions to ask Your Employer"
 draft = false
-date = "2014-11-02T10:37:56+02:00"
-pubdate = "2014-11-02T10:37:56+02:00"
-tags = ["career"]
-keywords = ["career"]
 section = "blog"
+title = "Job Interview Questions to ask Your Employer"
+description = ""
+pubdate = "2014-11-02T10:37:56+02:00"
+date = "2014-11-02T10:37:56+02:00"
+keywords = ["career"]
+tags = ["career"]
 disqus_url = "https://peteraba.com/post/job-interview-questions-to-ask-your-employer/"
 disqus_identifier = "job-interview-questions-to-ask-your-employer"
 disqus_title = "Job Interview Questions to ask Your Employer"

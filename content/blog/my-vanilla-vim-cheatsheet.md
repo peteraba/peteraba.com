@@ -1,13 +1,12 @@
 +++
-title = "My Vanilla Vim Cheatsheet"
 draft = false
+section = "blog"
+title = "My Vanilla Vim Cheatsheet"
 description = "Vim is great, but learning to drive it is a long term process. This is my cheat sheet for vanilla installations."
-keywords = ["vim"]
-tags = ["vim"]
 pubdate = "2015-03-22T20:09:13+01:00"
 date = "2015-03-22T20:09:13+01:00"
-section = "blog"
-thumbnail = ""
+keywords = ["vim"]
+tags = ["vim"]
 disqus_url = "https://peteraba.com/post/my-vanilla-vim-cheatsheet"
 disqus_identifier = "my-vanilla-vim-cheatsheet"
 disqus_title = "My Vanilla Vim Cheatsheet"

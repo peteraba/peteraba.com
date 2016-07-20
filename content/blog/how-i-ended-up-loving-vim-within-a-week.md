@@ -1,9 +1,12 @@
 +++
-date = 2014-09-13T15:52:26Z
 draft = false
-title = "How I Ended Up Loving Vim Within a Week"
-tags = ["vim", "ide", "editor"]
 section = "blog"
+title = "How I Ended Up Loving Vim Within a Week"
+description = ""
+pubdate = 2014-09-13T15:52:26Z
+date = 2014-09-13T15:52:26Z
+keywords = ["vim", "ide", "editor"]
+tags = ["vim", "ide", "editor"]
 disqus_url = "https://peteraba.com/post/how-i-ended-up-loving-vim-within-a-week"
 disqus_identifier = "how-i-ended-up-loving-vim-within-a-week"
 disqus_title = "How I Ended Up Loving Vim Within a Week"

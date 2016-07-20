@@ -1,12 +1,12 @@
 +++
-title = "My Vim Plugins"
 draft = false
+section = "blog"
+title = "My Vim Plugins"
 description = "Vim is awesome out of the box, with plugins it's unbelievable"
-keywords = ["vim"]
-tags = ["vim"]
 pubdate = "2015-03-22T19:48:31+01:00"
 date = "2015-03-22T19:48:31+01:00"
-section = "blog"
+keywords = ["vim"]
+tags = ["vim"]
 thumbnail = ""
 disqus_url = "https://peteraba.com/post/my-vim-plugins"
 disqus_identifier = "my-vim-plugins"

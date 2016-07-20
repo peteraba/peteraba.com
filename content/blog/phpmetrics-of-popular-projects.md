@@ -1,10 +1,12 @@
 +++
-date = 2014-09-01T19:07:23Z
 draft = false
+section = "blog"
 title = "PhpMetrics of Popular PHP Projects"
 description = "Using phpmetrics to generate static analysis of popular php projects"
+pubdate = 2014-09-01T19:07:23Z
+date = 2014-09-01T19:07:23Z
+keywords = ["phpmetrics", "php", "metrics"]
 tags = ["phpmetrics", "php", "metrics"]
-section = "blog"
 disqus_url = "https://peteraba.com/post/phpmetrics-of-popular-php-projects/"
 disqus_identifier = "phpmetrics-of-popular-php-projects"
 disqus_title = "PhpMetrics of Popular PHP Projects"
