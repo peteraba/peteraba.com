@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 section = "blog"
 title = "Test PHP versions and projects with Docker in minutes"
 description = "Docker is definitely gaining momentum among developers as lightweight virtual-machine, helping developers replicating faking live environments or even deploying built images. However I think many still fail to realise the potential of Docker as an easy and fast way to \"install\" and test tools"
