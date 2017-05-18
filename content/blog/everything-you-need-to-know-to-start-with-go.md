@@ -1,14 +1,14 @@
 +++
 draft = false
 section = "blog"
-title = "Everything You Need to Start with Go"
-description = "Getting started with Go"
-pubdate = "2017-05-17T22:45:45+01:00"
-date = "2017-05-17T22:45:45+01:00"
-keywords = ["php", "docker"]
-tags = ["php", "docker"]
+title = "Everything You Need to Know to Start with Go"
+description = "Links for getting started with Go"
+pubdate = "2017-05-17T20:45:45+01:00"
+date = "2017-05-17T20:45:45+01:00"
+keywords = ["go"]
+tags = ["go"]
 thumbnail = ""
-disqus_url = "https://peteraba.com/post/everything-you-need-to-start-with-go"
+disqus_url = "https://peteraba.com/post/everything-you-need-to-know-to-start-with-go"
 disqus_identifier = "everything-you-need-to-know-to-start-with-go"
 disqus_title = "Everything You Need to Know to Start with Go"
 has_code = false
