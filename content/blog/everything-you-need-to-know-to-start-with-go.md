@@ -110,6 +110,7 @@ has_code = false
  - [Advanced Go Concurrency Patterns (video)](https://www.youtube.com/watch?v=QDDwwePbDtw)
  - [Using code generation to survive without generics in Go](https://www.calhoun.io/using-code-generation-to-survive-without-generics-in-go/)
  - [The challenges of writing a massive and complex go application (video)](https://www.youtube.com/watch?v=hWNwI5q01gI)
+ - [Where does Go's concurrency (CSP) fall short?](https://www.quora.com/Where-does-Gos-concurrency-CSP-fall-short/answer/Sameer-Ajmani)
 
 ## Online sources
 
