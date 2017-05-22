@@ -44,6 +44,11 @@ has_code = false
  - [Delve into Go (video)](https://www.youtube.com/watch?v=InG72scKPd4)
  - [Go Tooling in Action](https://www.youtube.com/watch?v=uBjoTxosSys)
  - [3rd party debugger](https://github.com/derekparker/delve)
+ - [GoConvey - Go testing in the browser, with optional behavioral tools](github.com/smartystreets/goconvey)
+ - [Goblin - a Mocha like BDD testing framework for Go](https://github.com/franela/goblin)
+ - [Godog - Cucumber for Golang](https://github.com/DATA-DOG/godog)
+ - [Ginko - a BDD-style Golang testing framework](https://onsi.github.io/ginkgo)
+ - [testify - sacred extension to the standard go testing package](https://github.com/stretchr/testify)
  - [Profiling Go Programs](https://blog.golang.org/profiling-go-programs)
  - [Race Detector](https://blog.golang.org/race-detector)
  - [HTTP Tracing](https://blog.golang.org/http-tracing)
@@ -53,6 +58,8 @@ has_code = false
  - [Benchmarking Go (video)](https://vimeo.com/114975899)
  - [Go Static Analysis Tools (video)](https://vimeo.com/114736889)
  - [go-cleanarch](https://github.com/roblaszczak/go-cleanarch)
+ - [gocbs - Find areas in your codebase that might need refactoring](https://github.com/variadico/gocbs)
+ - [richgo - Enrich go test outputs with text decorations](https://github.com/kyoh86/richgo)
 
 ## Interesting projects
 
@@ -72,6 +79,9 @@ has_code = false
    - [Source code](https://github.com/prometheus/prometheus)
    - [Designing and Implementing a Modern Monitoring Solution (video)](https://www.youtube.com/watch?v=1V7eJ0jN8-E)
    - [CloudNativeCon 2017 videos - Prometheus track here (video series](https://www.youtube.com/watch?v=uV_sh7_lVw8&list=PLqm7NmbgjUExeDZU8xb2nxz-ysnjuC2Mz&index=1)
+ - OKLog - distributed and coördination-free log management system
+   - [Blog post](https://peter.bourgon.org/ok-log/)
+   - [Source code](https://github.com/oklog/oklog)
  - Ponzu - CMS
    - [Website](https://docs.ponzu-cms.org/)
    - [An Introduction (video)](https://www.youtube.com/watch?v=T_1ncPoLgrg)
@@ -96,6 +106,9 @@ has_code = false
    - [Source code](https://github.com/influxdata/influxdb)
  - CockroachDB - the scalable, survivable, strongly-consistent SQL database
    - [Source code](https://github.com/cockroachdb/cockroach)
+ - GopherJs - compiler from Go to JavaScript for running Go code in a browser
+   - [Blog](https://medium.com/gopherjs)
+   - [Playground](https://gopherjs.github.io/playground/)
 
 ## Advanced Go
 
@@ -114,16 +127,21 @@ has_code = false
 
 ## Online sources
 
+ - [Gopher Academy (youtube channel)](https://www.youtube.com/channel/UCx9QVEApa5BKLw9r8cnOFEA)
  - [Go Language - Web Application Secure Coding Practices](https://checkmarx.gitbooks.io/go-scp/)
  - [Golang Bootcamp (online book)](http://www.golangbootcamp.com/book)
  - [A curated list of awesome Go frameworks, libraries and software](https://awesome-go.com/)
- - [Gopher Academy (youtube channel)](https://www.youtube.com/channel/UCx9QVEApa5BKLw9r8cnOFEA)
+ - [golanglibs.com - Categorized go libraries](https://golanglibs.com/)
+ - [go-patterns - Curated list of Go design patterns, recipes and idioms](https://github.com/tmrts/go-patterns)
+ - [algorithms - Algorithms & Data Structures in Go](https://github.com/arnauddri/algorithms)
+ - [go-algorithms - Algorithms and data structure by golang](https://github.com/tcnksm/go-algorithms)
+ - [go-algorithms - Algorithms and data structures for golang](https://github.com/0xAX/go-algorithms)
 
 ## More videos
 
  - [GopherCon 2015 Roundup](https://blog.golang.org/gophercon2015)
  - [GolangUK 2015](https://blog.golang.org/gouk15)
- - [https://blog.golang.org/gothamgo](https://blog.golang.org/gothamgo)
+ - [GothamGo](https://blog.golang.org/gothamgo)
 
 ## Random interesting posts
 
@@ -131,4 +149,13 @@ has_code = false
  - [More posts on Hugo](https://gohugo.io/community/press/)
  - [Comparing Erlang and Go Concurrency](https://www.youtube.com/watch?v=2yiKUIDFc2I)
  - [Don't just check errors, handle them gracefully](https://www.youtube.com/watch?v=lsBF58Q-DnY)
+
+## Design patterns, common utilities and examples
+
+ - [lodash-go - port of lodash and underscore](https://github.com/Mparaiso/lodash-go)
+ - [lctime - locale-based datetime formatting](https://github.com/variadico/lctimeo)
+ - [jsonschema - Generate JSON Schemas from Go types](https://github.com/alecthomas/jsonschema)
+ - [structs - Utilities for Go structs](https://github.com/fatih/structs)
+ - [gorx - Reactive eXtensions for Go](https://github.com/alecthomas/gorx)
+ - [Reactive Extensions for the Go language](https://github.com/ReactiveX/RxGo)
 
