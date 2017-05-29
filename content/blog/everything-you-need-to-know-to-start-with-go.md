@@ -14,6 +14,8 @@ disqus_title = "Everything You Need to Know to Start with Go"
 has_code = false
 +++
 
+There is an [awesome list of Go tools](https://github.com/avelino/awesome-go) out there to find pretty much everything Go. The problem is, it's a huge list, really not ideal for beginners in my humble opinion. Therefore I try to put together a Golang essentials below. Expect it to be regularly updated as I find old projects to no longer be supported and new ones which should really make this list...
+
 ## Getting Started
 
  - [Go Tour](https://golang.org/)
@@ -21,6 +23,9 @@ has_code = false
  - [Golangbot.com](https://golangbot.com/learn-golang-series/)
  - [Strings, bytes, runes and characters in Go](https://blog.golang.org/strings)
  - [Arrays, slices (and strings](https://blog.golang.org/slices)
+ - [Databases](http://go-database-sql.org/)
+ - [Go Cheat Sheet](https://github.com/a8m/go-lang-cheat-sheet)
+ - [Exercism.io - Practice, get feedback!](http://exercism.io/)
 
 ## Best coding practices
 
@@ -38,6 +43,10 @@ has_code = false
  - [What Could Go Wrong? (video)](https://www.youtube.com/watch?v=VC3QXZ-x5yI)
  - [SOLID Go Design (video)](https://www.youtube.com/watch?v=zzAdEt3xZ1M)
  - [Twelve Go Best Practices](https://www.youtube.com/watch?v=8D3Vmm1BGoY)
+ - [Standard Package Layout](https://medium.com/@benbjohnson/standard-package-layout-7cdbc8391fc1)
+ - [How to avoid Go gotchas](http://divan.github.io/posts/avoid_gotchas/)
+ - [Go Best Practices](https://peter.bourgon.org/go-best-practices-2016/)
+ - [Context](https://peter.bourgon.org/blog/2016/07/11/context.html)
 
 ## Tooling
 
@@ -60,55 +69,11 @@ has_code = false
  - [go-cleanarch](https://github.com/roblaszczak/go-cleanarch)
  - [gocbs - Find areas in your codebase that might need refactoring](https://github.com/variadico/gocbs)
  - [richgo - Enrich go test outputs with text decorations](https://github.com/kyoh86/richgo)
+ - [govvv - binary versioning tool that wraps the go build command](https://github.com/ahmetb/govvv)
 
 ## Interesting projects
 
- - Go kit - toolkit for microservices
-   - [Website](https://gokit.io/)
-   - [Source code](https://github.com/go-kit/kit)
-   - [A Standard Library for Distributed Programming (video)](https://github.com/go-kit/kit)
-   - [A Toolkit for Microservices (video)](https://www.youtube.com/watch?v=aL6sd4d4hxk)
- - Functions as a Service
-   - [Source code](https://github.com/alexellis/faas)
-   - [Documentation](http://docs.get-faas.com/)
-   - [Deep Dive into Functions as a Service (FaaS) on Docker (video)](https://www.youtube.com/watch?v=sp1B7l5mEzc)
-   - [Tour of FaaS framework (video)](https://www.youtube.com/watch?v=BK076ChLKKE)
-   - [Dockercon 2017: Moby's Cool Hack Sessions](https://blog.docker.com/2017/04/dockercon-2017-mobys-cool-hack-sessions/)
- - Prometheus - monitoring system and time series database
-   - [Website](https://prometheus.io/)
-   - [Source code](https://github.com/prometheus/prometheus)
-   - [Designing and Implementing a Modern Monitoring Solution (video)](https://www.youtube.com/watch?v=1V7eJ0jN8-E)
-   - [CloudNativeCon 2017 videos - Prometheus track here (video series](https://www.youtube.com/watch?v=uV_sh7_lVw8&list=PLqm7NmbgjUExeDZU8xb2nxz-ysnjuC2Mz&index=1)
- - OKLog - distributed and coördination-free log management system
-   - [Blog post](https://peter.bourgon.org/ok-log/)
-   - [Source code](https://github.com/oklog/oklog)
- - Ponzu - CMS
-   - [Website](https://docs.ponzu-cms.org/)
-   - [An Introduction (video)](https://www.youtube.com/watch?v=T_1ncPoLgrg)
-   - [Github](https://github.com/ponzu-cms/ponzu)
- - k6 - Load Testing tool
-   - [Website](https://k6.io/)
-   - [Source code](https://github.com/loadimpact/k6)
-   - [Documentation](https://docs.k6.io/)
- - Kallax - PostgreSQL typesafe ORM
-   - [Source code](https://github.com/src-d/go-kallax)
- - Traefik - reverse proxy
-   - [Website](https://traefik.io/)
-   - [Source code](https://github.com/containous/traefik)
- - Hugo - static website engine
-   - [Website](https://gohugo.io/)
-   - [Source code](https://github.com/spf13/hugo)
-   - [Documentation](http://gohugo.io/overview/introduction/)
-   - [Website](https://gohugo.io/)
- - Telegraf - plugin-driven server agent for collecting & reporting metrics
-   - [Source code](https://github.com/influxdata/telegraf)
- - InfluxDB - scalable datastore for metrics, events, and real-time analytics
-   - [Source code](https://github.com/influxdata/influxdb)
- - CockroachDB - the scalable, survivable, strongly-consistent SQL database
-   - [Source code](https://github.com/cockroachdb/cockroach)
- - GopherJs - compiler from Go to JavaScript for running Go code in a browser
-   - [Blog](https://medium.com/gopherjs)
-   - [Playground](https://gopherjs.github.io/playground/)
+Section has been moved to its own blog post: [Coolest Open Source Go Projects in the Wild](https://peteraba.com/post/coolest-open-source-go-projects-in-the-wild).
 
 ## Advanced Go
 
@@ -124,24 +89,30 @@ has_code = false
  - [Using code generation to survive without generics in Go](https://www.calhoun.io/using-code-generation-to-survive-without-generics-in-go/)
  - [The challenges of writing a massive and complex go application (video)](https://www.youtube.com/watch?v=hWNwI5q01gI)
  - [Where does Go's concurrency (CSP) fall short?](https://www.quora.com/Where-does-Gos-concurrency-CSP-fall-short/answer/Sameer-Ajmani)
+ - [Golang Challenge - Learn from the best](http://golang-challenge.org/)
+ - [Going Go Programming - Very educational blog](https://www.goinggo.net)
 
 ## Online sources
 
  - [Gopher Academy (youtube channel)](https://www.youtube.com/channel/UCx9QVEApa5BKLw9r8cnOFEA)
  - [Go Language - Web Application Secure Coding Practices](https://checkmarx.gitbooks.io/go-scp/)
  - [Golang Bootcamp (online book)](http://www.golangbootcamp.com/book)
- - [A curated list of awesome Go frameworks, libraries and software](https://awesome-go.com/)
- - [golanglibs.com - Categorized go libraries](https://golanglibs.com/)
+ - [A Go Developer's Notebook](https://leanpub.com/GoNotebook/read)
  - [go-patterns - Curated list of Go design patterns, recipes and idioms](https://github.com/tmrts/go-patterns)
  - [algorithms - Algorithms & Data Structures in Go](https://github.com/arnauddri/algorithms)
  - [go-algorithms - Algorithms and data structure by golang](https://github.com/tcnksm/go-algorithms)
  - [go-algorithms - Algorithms and data structures for golang](https://github.com/0xAX/go-algorithms)
+ - [Go for JavaScript developers (WIP)](https://github.com/pazams/go-for-javascript-developers)
 
 ## More videos
 
  - [GopherCon 2015 Roundup](https://blog.golang.org/gophercon2015)
  - [GolangUK 2015](https://blog.golang.org/gouk15)
  - [GothamGo](https://blog.golang.org/gothamgo)
+
+## Books
+
+ - [List of Golang books](https://github.com/dariubs/GoBooks)
 
 ## Random interesting posts
 
@@ -154,8 +125,21 @@ has_code = false
 
  - [lodash-go - port of lodash and underscore](https://github.com/Mparaiso/lodash-go)
  - [lctime - locale-based datetime formatting](https://github.com/variadico/lctimeo)
+ - [timeutil - useful extensions](https://github.com/leekchan/timeutil)
+ - [now - time toolkit](https://github.com/jinzhu/now)
  - [jsonschema - Generate JSON Schemas from Go types](https://github.com/alecthomas/jsonschema)
  - [structs - Utilities for Go structs](https://github.com/fatih/structs)
+ - [decimal - Arbitrary-precision fixed-point decimal numbers](https://github.com/shopspring/decimal)
+ - [GoMoney - Implements of Fowler's Money pattern](https://github.com/rhymond/go-money)
+ - [Afero - FileSystem Abstraction System](https://github.com/spf13/afero)
  - [gorx - Reactive eXtensions for Go](https://github.com/alecthomas/gorx)
  - [Reactive Extensions for the Go language](https://github.com/ReactiveX/RxGo)
+
+## Find tools and projects
+
+ - [Awesome Go - A curated list of awesome Go frameworks, libraries and software](https://awesome-go.com/)
+ - [Awesome Go - App](https://go.libhunt.com/)
+ - [golanglibs.com - Categorized go libraries](https://golanglibs.com/)
+ - [Go Wiki](https://github.com/golang/go/wiki)
+ - [Go Walker - Search in over 280.000 go projects](https://gowalker.org/)
 
