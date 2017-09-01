@@ -78,6 +78,7 @@ Section has been moved to its own blog post: [Coolest Open Source Go Projects in
 ## Advanced Go
 
  - [Understanding Nil (video)](https://www.youtube.com/watch?v=ynoY2xz-F8s)
+ - [The thing about slices](https://scene-si.org/2017/08/06/the-thing-about-slices/)
  - [Inside the Map implementation](https://www.youtube.com/watch?v=Tl7mi9QmLns)
  - [A Practical Guide to Preventing Deadlocks and Leaks in Go (video)](https://www.youtube.com/watch?v=3EW1hZ8DVyw)
  - [Stupid Gopher Tricks (video)](https://www.youtube.com/watch?v=UECh7X07m6E)
@@ -113,6 +114,14 @@ Section has been moved to its own blog post: [Coolest Open Source Go Projects in
 ## Books
 
  - [List of Golang books](https://github.com/dariubs/GoBooks)
+
+## Missing features / Future of Go
+
+People coming from other languages often look for their favorite features from their previous languages. Oftentimes
+these are there in Go in some other form or name, sometimes they are missing because the language authors consider them
+harmful and sometimes they just haven't been added yet. Chances are, the community already discusses these features and
+the Go team is collecting these complaints and discussions to consider them when designing Go 2.0. You can find the list
+on [Github](https://github.com/golang/go/wiki/ExperienceReports).
 
 ## Random interesting posts
 
