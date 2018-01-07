@@ -46,6 +46,7 @@ function distance($a, $b)
 ```
 
 It's actually quite simple, there's just one if for checking the string lengths. On the other hand there are a few strange things about PHP already showing:
+
 1. Notice how str_split has a '_' character to separate the parts but strlen is written as one word? Typical PHP...
 2. Notice that array_diff_assoc is a rather specific function. It shows me that there is a very large standard library to learn.
 3. Throwing an exception is okay. If you're a consumer of this function, you better catch the exception being thrown here.
@@ -99,6 +100,7 @@ func Distance(a, b string) (int, error) {
 ```
 
 OK, what's the takeaway here?
+
 1. This is considerably longer and more complex than the PHP solution.
 2. On the other hand it requires much less prior knowledge from the user to understand, we don't even use the standard library. (To be fair it could also be avoided in PHP)
 3. There's no way this solution could be written on one line without breaking readability completely.
@@ -128,6 +130,7 @@ def distance(text_one, text_two):
 ```
 
 Takeaway:
+
 1. The cyclomatic complexity is a bit larger here, even without the error checking, but I do find it easier to read.
 2. Python's support for tuples and the zip function makes it kind of functional-like.
 3. There's nothing preventing us from calling this function with strange data.
@@ -145,6 +148,7 @@ def distance(sequence, other):
 ```
 
 Additional takeaway:
+
 6. By raising a value error we can cause even more havoc on the caller's side.
 
 
@@ -164,6 +168,7 @@ let distance (strand1: string) (strand2: string): int option =
 ```
 
 What can we take away here?
+
 1. It is slightly longer than the Python solution.
 2. You may found the `match` syntax strange but you can think of it as an `if` on steriod for now.
 3. There's no way you could call this function with wrong types.
