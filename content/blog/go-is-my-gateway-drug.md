@@ -106,9 +106,10 @@ OK, what's the takeaway here?
 3. There's no way this solution could be written on one line without breaking readability completely.
 4. Notice how the strong typing makes it impossible to call this method with weird data and how predictable the returned data is, except that error can also be a `nil`.
 5. Notice how errors handled by just forcebly returning an error type, "never" throwing something unexpected. (In reality there is a panic which can be raised, but it's usage is different from your typical exceptions)
-6. Make sure you understand that the error can be `nil`. *Warning:* There' will be dragons!
+6. Make sure you understand that the error can be `nil`. *Warning:* There will be dragons!
+7. It might be strange that the function starts with a capital letter whereas the other identifiers start with a smaller case. This makes the code public / exported in Go.
 
-*Note:* I tried to find a more functional or considerably simpler solution than mine but I found none.
+*Note:* I tried to find a more functional or considerably simpler solution but I didn't find any.
 
 
 ### Python
@@ -131,8 +132,8 @@ def distance(text_one, text_two):
 
 Takeaway:
 
-1. The cyclomatic complexity is a bit larger here, even without the error checking, but I do find it easier to read.
-2. Python's support for tuples and the zip function makes it kind of functional-like.
+1. The cyclomatic complexity is a bit larger here than with PHP, even without the error checking, but I do find it easier to read.
+2. Python's support for tuples and the `zip` function makes it kind of functional-like, although the `for` loop isn't all that usual in FP.
 3. There's nothing preventing us from calling this function with strange data.
 4. There's little we can expect from this function to be returned. If we change the return type to a string, the callers won't know until they get a runtime error.
 5. We are using the standard library here but `zip` feels much less esoteric than `array_diff_assoc` was for PHP.
