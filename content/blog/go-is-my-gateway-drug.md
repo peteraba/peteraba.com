@@ -47,7 +47,7 @@ function distance($a, $b)
 
 It's actually quite simple, there's just one if for checking the string lengths. On the other hand there are a few strange things about PHP already showing:
 
-1. Notice how str_split has a '_' character to separate the parts but strlen is written as one word? Typical PHP...
+1. Notice how str\_split has a '\_' character to separate the parts but strlen is written as one word? Typical PHP...
 2. Notice that array_diff_assoc is a rather specific function. It shows me that there is a very large standard library to learn.
 3. Throwing an exception is okay. If you're a consumer of this function, you better catch the exception being thrown here.
 4. The lack of types mean you can always call this function with whatever values you want from `null` to any type of `object`s, up to you. (Yes, this can be optionally fixed in PHP 7.0+, kind of.)
