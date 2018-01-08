@@ -72,7 +72,7 @@ function distance($a, $b)
 
 #### Note 2.
 
-One could also write the following using PHP 7 making some of the issues Go away.
+One could also write the following using PHP 7 making some of the issues go away. Typing is still optional though therefore there are still no general guarantees. Given that it's a scripting language, braking changes aren't necessary obvious before you deploy them unless your test suite has you covered.
 
 ```php
 <?php
@@ -204,7 +204,11 @@ What can we take away here?
 4. The response is even more obvious than Go's is as the `null` part is not a surprise here, it's expressed by the `option` type annotation.
 5. We are also using the standard library here but, much like `zip`, `List.fold2` and `List.ofSeq` also feel much less esoteric than `array_diff_assoc` in the PHP solution.
 
+It is not obvious from the above example but explicit type definitions are optional in F# unless the compiler tells you that you should provide them. Types however aren't optional like they are in PHP and partially in Python and since it's a compiled language there's much less space for mistakes too. Not having to deal with types in the first place can make coding feek much more like a scripting language when compared to C# for example. I only wish the compiler was faster, much faster if possible. (Go's compiler feels about 100x faster.)
+
 
 ### Conclusions
 
-I guess it's no surprise that I find the F# solution the best here but of course I do not mean to say that F# is the best language out of the four. I don't even think it's fair to say such a thing in general. I also don't think that this example proves in any way that FP is better than OOP. Obviously these examples provide no good insight into how hard these languages are to learn, how usable they are in the wild and many other important aspect of the languages. They do prove however, at least to me, that it's worth learning other languages as not all languages are equal.
+I guess it's no surprise that I find the F# solution the best here, but of course I do not mean to say that F# is the best language out of the four. I don't even think it's fair to say such a thing in general. I also don't think that this example proves in any way that FP is better than OOP. Obviously these examples provide no good insight into how hard these languages are to learn, how usable they are in the wild and many other important aspect of the languages. They do prove however, at least to me, that it's worth learning other languages as not all languages are equal.
+
+Thank you [exercism.io](http://exercism.io), you're awesome!
