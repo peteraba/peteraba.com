@@ -14,13 +14,13 @@ disqus_title = "Go is my gateway drug"
 has_code = true
 +++
 
-I've been a long time PHP / JavaScript developer by 2013 when I first started toying with Go. It's been almost 5 years by now and I've been an advocate of the language ever since. I was one of the programmers who tried it out for the concurency primitives but stayed for it's simplicity. It was with Go that I realised how much nicer life is without inheritance and the rest of the OOP shenenigans. This than further pushed me to experiment with many other modern languages.
+I've been a long time PHP / JavaScript developer by 2013 when I first started toying with Go. It's been almost 5 years by now and I've been an advocate of the language ever since. I was one of the many programmers who tried it out for the concurency primitives but stayed for it's simplicity. It was with Go that I realised how much nicer life is without inheritance and the rest of the OOP shenenigans. On the other hand Go also gave me a push to experiment with even more languages. It turned out to be my gateway drug to learning programing languages.
 
 Of course, I played with some languages like Java, Python or Ruby before but honestly they didn't provide me anything that would be that much more than I had before. I was not interested in writing games, desktop or mobile apps at the time, I was happy as webdeveloper. To me Java felt too clumsy, Ruby felt too much magic and Python felt lacking the momentum at the time. (Not to mention the 2.x vs 3.x confusion.) Learning either of these languages felt too much work for the potential gain. With Go it was different, practically a love at first sight. It was so easy to learn and promised (and fulfilled) so much that I couldn't even stop learning more. Once I mastered it though, I realized that my old OOP languages feel verbose and my dynamically typed languages feel fragile. I was however feeling that Python was nicer to read than Go and this made me looking at further languages, mostly new ones like Rust and Elixir.
 
 There are a few ways to try out new languages and I usually prefer doing a small project in them even if I never actually finish those projects. This past two weeks however I went back to an old favorite: [exercism.io](http://exercism.io). What's really nice about this service is that you can check how others solved a particular problem and with a bit of extra effort it's also possible to find or construct a "perfect" solution.
 
-To showcase what I mean I'll add a few solutions for the relatively simple problem of finding the "distance" between two strings, meaning the number of characters being different. (This problem is known as the Hamming problem throughout the exercism.io problem sets.)
+To showcase what I mean I'll add a few solutions for a simple problem called the Hamming problem throughout the exercism.io. The problem is simply finding the "distance" between two strings meaning the number of characters being different.
 
 
 ### PHP
@@ -52,7 +52,10 @@ It's actually quite simple, there's just one if for checking the string lengths.
 3. Throwing an exception is okay. If you're a consumer of this function, you better catch the exception being thrown here.
 4. The lack of types mean you can always call this function with whatever values you want from `null` to any type of `object`s, up to you. (Yes, this can be optionally fixed in PHP 7.0+, kind of.)
 
-+1. Hopefully no one would try to get everything done in one line, because it can seriously hurt anyone:
+
+#### Note 1.
+
+Hopefully no one would try to get everything done in one line, because it can seriously hurt anyone looking at it:
 
 ```php
 <?php
@@ -64,6 +67,31 @@ function distance($a, $b)
     }
 
     return count(array_diff_assoc(str_split($a), str_split($b)));
+}
+```
+
+#### Note 2.
+
+One could also write the following using PHP 7 making some of the issues Go away.
+
+```php
+<?php
+
+/**
+ * @throws \InvalidArgumentException
+ */
+function distance(string $a, string $b): string
+{
+    if (strlen($a) != strlen($b)) {
+        throw new \InvalidArgumentException('DNA strands must be of equal length.');
+    }
+
+    $aSplit = str_split($a);
+    $bSplit = str_split($b);
+
+    $diff = array_diff_assoc($aSplit, $bSplit);
+
+    return count($diff);
 }
 ```
 
@@ -171,12 +199,12 @@ let distance (strand1: string) (strand2: string): int option =
 What can we take away here?
 
 1. It is slightly longer than the Python solution.
-2. You may found the `match` syntax strange but you can think of it as an `if` on steriod for now.
+2. You may find the `match` syntax strange but you can think of it as an `if` on steriod for now.
 3. There's no way you could call this function with wrong types.
 4. The response is even more obvious than Go's is as the `null` part is not a surprise here, it's expressed by the `option` type annotation.
 5. We are also using the standard library here but, much like `zip`, `List.fold2` and `List.ofSeq` also feel much less esoteric than `array_diff_assoc` in the PHP solution.
 
 
-### Final comparison
+### Conclusions
 
-I guess it's no surprise that I find the F# solution the best here but of course I do not mean to say that F# is the best language out of the four. I don't even think it's fair to say such a thing in general. I also don't think it proves in any way that FP is better than OOP. It does prove however, at least to me, that it's worth learning other languages as not all languages are equal.
+I guess it's no surprise that I find the F# solution the best here but of course I do not mean to say that F# is the best language out of the four. I don't even think it's fair to say such a thing in general. I also don't think that this example proves in any way that FP is better than OOP. Obviously these examples provide no good insight into how hard these languages are to learn, how usable they are in the wild and many other important aspect of the languages. They do prove however, at least to me, that it's worth learning other languages as not all languages are equal.
