@@ -6,7 +6,7 @@ description = "How Go opened me up for functional languages"
 pubdate = "2018-01-07T17:20:00+01:00"
 date = "2018-01-07T17:20:00+01:00"
 keywords = ["go", "programming", "php", "f-sharp", "python"]
-tags = ["go", "programming", "php", "f-sharp", "python"]
+tags = ["exercism.io", "go", "programming", "php", "f-sharp", "python"]
 thumbnail = ""
 disqus_url = "https://peteraba.com/post/go-is-my-gateway-drug"
 disqus_identifier = "go-is-my-gateway-drug"
@@ -211,4 +211,4 @@ It is not obvious from the above example but explicit type definitions are optio
 
 I guess it's no surprise that I find the F# solution the best here, but of course I do not mean to say that F# is the best language out of the four. I don't even think it's fair to say such a thing in general. I also don't think that this example proves in any way that FP is better than OOP. Obviously these examples provide no good insight into how hard these languages are to learn, how usable they are in the wild and many other important aspect of the languages. They do prove however, at least to me, that it's worth learning other languages as not all languages are equal.
 
-Thank you [exercism.io](http://exercism.io), you're awesome!
+Also [exercism.io](http://exercism.io) is an awesome dealer.
