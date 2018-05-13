@@ -1,8 +1,8 @@
 +++
 draft = false
 section = "blog"
-title = "Coolest Open Source Go Projects in the Wild"
-description = "Find out how is used in the wild"
+title = "Coolest Open Source Go Projects in the Wild - 2017"
+description = "Find out how Go is used in the wild"
 pubdate = "2017-05-29T10:56:00+01:00"
 date = "2017-05-29T10:56:00+01:00"
 keywords = ["go"]
@@ -33,7 +33,7 @@ This post is based on a section of the [“Everything You Need to Know to Start 
 
 ## Containers
 
-### Docker Moby - container ecosystem
+### Docker / Moby - container ecosystem
  - [Website](https://mobyproject.org/)
  - [Documentation](https://docs.docker.com/)
  - [Source code](https://github.com/moby/moby)
