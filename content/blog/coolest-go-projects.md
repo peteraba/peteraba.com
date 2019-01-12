@@ -122,12 +122,11 @@ This post is based on a section of the [“Everything You Need to Know to Start 
 
 ## Other DevOps
 
-### Functions as a Service (MIT, alpha, 0.5.5-alpha)
+### OpenFaaS - Functions as a Service (MIT, alpha, 0.6.6)
  - [Source code](https://github.com/alexellis/faas)
  - [Releases](https://github.com/alexellis/faas/releases)
- - [Documentation](http://docs.get-faas.com/)
- - [Deep Dive into Functions as a Service (FaaS) on Docker (video)](https://www.youtube.com/watch?v=sp1B7l5mEzc)
- - [Tour of FaaS framework (video)](https://www.youtube.com/watch?v=BK076ChLKKE)
+ - [Homepage](http://www.openfaas.com/)
+ - [Tour of FaaS framework](https://skillsmatter.com/skillscasts/10813-faas-and-furious-0-to-serverless-in-60-seconds-anywhere)
  - [Dockercon 2017: Moby's Cool Hack Sessions](https://blog.docker.com/2017/04/dockercon-2017-mobys-cool-hack-sessions/)
 
 ### Apex - Build, deploy, and manage AWS Lambda functions (MIT, pre-stable, v0.14.0)
