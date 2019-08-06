@@ -24,7 +24,7 @@ disqusShortname = "peteraba"
     code = "/:slug/"
 
 [taxonomies]
-    tag = "Tags"
+    tag = "tags"
 
 [author]
     name = "Peter Aba"
