@@ -14,9 +14,6 @@ disqus_title = "3 recent posts on tech management I loved"
 has_code = false
 +++
 
-
-This post was first published on my [blog](https://peteraba.com/3-recent-posts-on-tech-management-i-loved).
-
 Have you ever read a blog post so great, that you thought everyone should read it? I sure have, more than once, but I found that in most cases "everyone" just didn't care. So I thought I'll try something I haven't tried before and cherry pick a few posts by topic from the recent years and share them as a single blog post. I'll throw in some of my own comments and act like I've actually done something creative today.
 
 1. The article that pushed me to create this post was ["The 3 Capacities of a Good Manager"](https://medium.com/better-programming/the-3-capacities-of-a-good-manager-a950e798aaaa). It not only details 3 ways how really bright engineers can end up as less than great managers, it also explains how to identify each one by symptoms, describes how managers need to think about their roles and gives a simple framework for managers to assess themselves. To some extent I felt like I was reading an excellent excerpt of a book, but somehow it felt complete at the same time. [Matthew Werner](https://medium.com/@ropstenrich) did a great job here, I'll re-read this post multiple times for sure.
