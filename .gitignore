@@ -1,0 +1,8 @@
+# Editors
+.idea
+
+# Public folder is generated
+public
+
+# Files for local only
+deploy.sh
