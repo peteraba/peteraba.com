@@ -1,7 +1,7 @@
 +++
 title = '10 Years Later'
 date = 2023-12-03T13:52:21+01:00
-draft = true
+draft = false
 +++
 
 After 4 years of inactivity, I decided to give this blog a new, more modern look. It also made me want to reflect on the past a bit. This is a very personal post, there are no technical details below.
