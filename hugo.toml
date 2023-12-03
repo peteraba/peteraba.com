@@ -9,8 +9,8 @@ pluralizelisttitles = true   # removes the automatically appended "s" on sidebar
 
 [params]
 brand = "Peter Aba"                      # name of your site - appears in the sidebar
-brand_image = "/peteraba.png"    # path to the image shown in the sidebar
-description = "Code with Peter" # Used as default meta description if not specified in front matter
+brand_image = "/peteraba-2.png"    # path to the image shown in the sidebar
+description = "unbearded jr. grey beard" # Used as default meta description if not specified in front matter
 dark_mode = true                      # optional - defaults to false
 favicon = "/favicon.ico"             # path to favicon (defaults to favicon.png)
 front_page_content = ["blog"]
@@ -28,7 +28,7 @@ menu = [
 
     # Example:
     # ... /content/about/about.md
-    {Name = "About", URL = "/about/", HasChildren = false},
+    {Name = "About Me", URL = "/about/", HasChildren = false},
 
     # LIST
     # This example has a subheading of "Recent"
@@ -56,7 +56,7 @@ linkedin_url = "https://www.linkedin.com/in/peteraba/"
 #mastodon_url = "https://mastodon.social"
 #matrix_url = "https://matrix.org"
 #telegram_url = "https://telegram.org"
-#tryhackme_url = "https://tryhackme.com"
+#tryhackme_url = "https://tryhackme.com/"
 #twitter_url = "https://twitter.com"
 #xmpp_url = "https://xmpp.org"
 #youtube_url = "https://youtube.com"
@@ -106,9 +106,9 @@ table_stripe_color_dark = "#202020"             # default is #202020
 text_color_dark = "#EEE"                        # default is #EEE
 
 # NOTE: If using Remark42 as commenting engine, uncomment and configure these lines
-# remark42 = true
-# remark42_host = "https://yourhost.com"
-# remark42_site_id = "your_site_id"
+#remark42 = true
+#remark42_host = "https://yourhost.com"
+#remark42_site_id = "your_site_id"
 
 # NOTE: The following three params are optional and are used to create meta tags + enhance SEO.
 # og_image = ""                       # path to social icon - front matter: image takes precedent, then og_image, then brand_url
@@ -120,3 +120,36 @@ text_color_dark = "#EEE"                        # default is #EEE
 [taxonomies]
 series = 'series'
 tags = 'tags'
+
+[module]
+[[module.imports]]
+path = "github.com/hugomods/utterances"
+
+[params.utterances]
+# Client script endpoint.
+endpoint = "https://utteranc.es/"
+
+# The GitHub repository, required.
+repo = "peteraba/peteraba.com"
+
+# The mapping between blog posts and GitHub issues. Available options:
+#   pathname: Utterances will search for an issue whose title contains the blog post's pathname URL component.
+#   url:      Utterances will search for an issue whose title contains the blog post's URL.
+#   title:    Utterances will search for an issue whose title contains the blog post's title.
+#   og:title: Utterances will search for an issue whose title contains the page's Open Graph title meta.
+mapping = "pathname"
+
+# The label that will be assigned to issues created by Utterances.
+label = "comments"
+
+# Theme. Available options:
+#   github-light:           GitHub Light
+#   github-dark:            GitHub Dark
+#   preferred-color-scheme: Preferred Color Scheme
+#   github-dark-orange:     GitHub Dark Orange
+#   icy-dark:               Icy Dark
+#   dark-blue:              Dark Blue
+#   photon-dark:            Photon Dark
+#   boxy-light:             Boxy Light
+#   gruvbox-dark:           Gruvbox Dark
+theme = "preferred-color-scheme"
