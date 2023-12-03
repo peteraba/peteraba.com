@@ -36,10 +36,12 @@ menu = [
 
     # Example:
     # ... /content/posts/introducing-poison.md
-    {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5},
+    {Name = "Blog", URL = "/blog/", Pre = "Recent", HasChildren = true, Limit = 3},
+    {Name = "Code", URL = "/code/"},
+    {Name = "Talks", URL = "/talks/"},
 
     # Example of a list without a subheading or limit.
-    {Name = "Projects", URL = "/projects/"},
+    {Name = "dev.to", URL = "https://dev.to/peteraba/", External = true},
 ]
 
 # Links to your socials.  Comment or delete any you don't need/use.
