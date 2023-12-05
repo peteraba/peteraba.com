@@ -5,6 +5,8 @@ draft = false
 tags = ["personal"]
 +++
 
+![Image with a tree in time and seasons](/media/10-years-later/top.png "Image of passing time")
+
 After 4 years of inactivity, I decided to give this blog a new, more modern look. It also made me want to reflect on the past a bit. This is a very personal post, there are no technical details below.
 
 ### Good ol' PHP Times
