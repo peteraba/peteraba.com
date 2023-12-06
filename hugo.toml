@@ -66,13 +66,13 @@ rss_section = "blog"
 
 # Hex colors for your sidebar.
 moon_sun_background_color = "#515151"   # default is #515151
-moon_sun_color = "#FFF"                 # default is #FFF
-sidebar_a_color = "#FFF"                # default is #FFF
+moon_sun_color = "#BBB"                 # default is #FFF
+sidebar_a_color = "#BBB"                # default is #FFF
 sidebar_bg_color = "#202020"            # default is #202020
-sidebar_h1_color = "#FFF"               # default is #FFF
+sidebar_h1_color = "#BBB"               # default is #FFF
 sidebar_img_border_color = "#515151"    # default is #515151
-sidebar_p_color = "#909090"             # default is #909090
-sidebar_socials_color = "#FFF"          # default is #FFF
+sidebar_p_color = "#777"             # default is #909090
+sidebar_socials_color = "#BBB"          # default is #FFF
 
 # Hex colors for your content in light mode.
 code_color = "#000"                     # default is #000
@@ -89,18 +89,18 @@ table_stripe_color = "#F9F9F9"          # default is #F9F9F9
 text_color = "#222"                     # default is #222
 
 # Hex colors for your content in dark mode
-code_color_dark = "#FFF"                        # default is #FFF
+code_color_dark = "#BBB"                        # default is #FFF
 code_background_color_dark = "#515151"          # default is #515151
-code_block_color_dark = "#FFF"                  # default is #FFF
+code_block_color_dark = "#BBB"                  # default is #FFF
 code_block_background_color_dark = "#272822"    # default is #272822
 content_bg_color_dark = "#121212"               # default is #121212
-date_color_dark = "#9A9A9A"                     # default is #9A9A9A
+date_color_dark = "#808080"                     # default is #9A9A9A
 link_color_dark = "#268BD2"                     # default is #268BD2
 list_color_dark = "#9D9D9D"                     # default is #9D9D9D
-post_title_color_dark = "#DBE2E9"               # default is #DBE2E9
+post_title_color_dark = "#C0C0C0"               # default is #DBE2E9
 table_border_color_dark = "#515151"             # default is #515151
 table_stripe_color_dark = "#202020"             # default is #202020
-text_color_dark = "#EEE"                        # default is #EEE
+text_color_dark = "#AAA"                        # default is #EEE
 
 # NOTE: If using Remark42 as commenting engine, uncomment and configure these lines
 #remark42 = true
