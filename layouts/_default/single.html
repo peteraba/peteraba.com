@@ -1,14 +1,24 @@
 {{ define "main" -}}
 <div class="post">
   {{ partial "post/info.html" . }}
+
+  <!-- Custom age warning -->
+  {{ $fiveYearsAgo := now.AddDate -5 0 0 }}
+  {{ if lt .Date ($fiveYearsAgo) }}
+  {{ partial "post/old_post_warning.html" . }}
+  <!-- End of custom age warning -->
+
+  {{ end }}
   {{ .Content }}
   {{ if (.Site.Params.listmonk) }}
     {{ partial "post/listmonk_email_newsletters.html" . }}
   {{ end }}
   {{ partial "post/navigation.html" . }}
+  <!-- Custom utterances comments -->
   {{ if or (or (.Site.Params.remark42) (.Site.DisqusShortname)) (.Site.Params.utterances ) }}
     {{ partial "post/comments.html" . }}
   {{ end }}
+  <!-- End of custom utterances comments -->
 </div>
 {{- end }}
 {{ define "sidebar" }}

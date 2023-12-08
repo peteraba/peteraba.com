@@ -1,0 +1,4 @@
+<div class="infobox {{ if .Get "class" }}{{ .Get "class" }}{{ else }}alert{{ end }}-block">
+    <p><strong>{{ .Get "title" }}</strong></p>
+    {{ .Inner }}
+</div>

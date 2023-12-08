@@ -1,0 +1,96 @@
+.infobox {
+    /*max-width: 550px;*/
+    position:  relative;
+    padding: 10px 20px 10px 10px;
+    margin:  10px auto;
+}
+.infobox:before {
+    content: '\f071';
+    font-family: "FontAwesome";
+    position: absolute;
+    left: -27px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+}
+.infobox p {
+    margin-bottom: 0;
+}
+.debug-block {
+    border: 2px solid #494949;
+    background-color: #8b8b8b;
+    border-radius: 5px;
+    border-left-width: 40px;
+}
+.debug-block:before {
+    content: '\f071';
+    color: #fff;
+}
+.debug-block h1, .debug-block h2, .debug-block h3, .debug-block h4, .debug-block h5, .debug-block strong, .debug-block p {
+    color: #fff;
+}
+.debug-block a {
+    color: #292929;
+    font-style: italic;
+}
+.info-block {
+    color: #4067f5;
+    border: 2px solid #4067f5;
+    background-color: #dfe4fa;
+    border-radius: 5px;
+    border-left-width: 40px;
+}
+.info-block:before {
+    content: '\f071';
+    color: #fff;
+}
+.info-block h1, .info-block h2, .info-block h3, .info-block h4, .info-block h5, .info-block strong, .info-block p {
+    color: #10277a;
+}
+.info-block a {
+    color: #051349;
+    font-style: italic;
+}
+.note-block {
+    border: 2px solid #f5c340;
+    background-color: #faf8df;
+    border-radius: 5px;
+    border-left-width: 40px;
+}
+.note-block:before {
+    content: '\f071';
+    color: #fff;
+}
+.note-block h1, .note-block h2, .note-block h3, .note-block h4, .note-block h5, .note-block strong, .note-block p {
+    color: #a37b14;
+}
+.alert-block {
+    border: 2px solid #f57c40;
+    background-color: #fae9df;
+    border-radius: 5px;
+    border-left-width: 40px;
+}
+.alert-block:before {
+    content: '\f071';
+    color: #fff;
+}
+.alert-block h1, .alert-block h2, .alert-block h3, .alert-block h4, .alert-block h5, .alert-block strong, .alert-block p {
+    color: #c35a27;
+}
+.alert-block a {
+    color: #6a2909;
+    font-style: italic;
+}
+.warning-block {
+    border: 2px solid #f54040;
+    background-color: #fadfdf;
+    border-radius: 5px;
+    border-left-width: 40px;
+}
+.warning-block:before {
+    content: '\f071';
+    color: #fff;
+}
+.warning-block h1, .warning-block h2, .warning-block h3, .warning-block h4, .warning-block h5, .warning-block strong, .warning-block p {
+    color: #7a1010;
+}
