@@ -12,7 +12,7 @@ has_code = false
 +++
 
 
-![Revised: The danger of detached management](/media/revised-the-danger-of-detached-management/top.png "Image of a detached caravan")
+![Revised: The danger of detached management](/media/revised-the-danger-of-detached-management/top2.png "Image of a detached caravan")
 
 ## Preface
 
@@ -20,7 +20,7 @@ has_code = false
 
 ## Scenario - The good parts
 
-![The good parts](/media/revised-the-danger-of-detached-management/happy.png "Happy unicorns and fluffy mythical creatures in front of a rainbow")
+![The good parts](/media/revised-the-danger-of-detached-management/happy2.png "Happy unicorns and fluffy mythical creatures in front of a rainbow")
 
 Let's say you have a software feature team comprising a handful of focused and experienced professionals and perhaps a few juniors just for good measure. Let's also imagine that this is true for both the engineers and the product managers. Together, they implement a very fruitful culture where it's always clear what to deliver, and so are their priorities. The team ships features more or less on time and keeps technical debt under control. Sounds great so far, right?
 
@@ -30,7 +30,7 @@ Let's say that said team also has a lead, but she's primarily involved in high-l
 
 ## Impact - The bad parts
 
-![The bad parts](/media/revised-the-danger-of-detached-management/sad.png "Gloomy image of unicorns and fluffy mythical creatures looking for food")
+![The bad parts](/media/revised-the-danger-of-detached-management/sad2.png "Gloomy image of unicorns and fluffy mythical creatures looking for food")
 
 She lifts a lot of weight off the team's back, enabling them to focus on the product and engineering tasks. This should sound great; there's hardly anything to boost team performance more than cutting out distractions. The problems start with her decision not to have one-on-ones with her team members since she's not really part of the team's day-to-day work. She also considers attending stand-ups and Kaizens to be optional for her. This, however, can render her practically detached from her team.
 
@@ -68,7 +68,7 @@ Most of the above is likely true for any delivery team, in or outside IT. Howeve
 
 ## Solutions
 
-![Hope](/media/revised-the-danger-of-detached-management/hope3.png "Hell to Eden via a tunnel")
+![Hope](/media/revised-the-danger-of-detached-management/hope4.png "Hell to Eden via a tunnel")
 
 Here's what I think our imaginary lead should do:
 
