@@ -15,7 +15,7 @@
   {{ end }}
   {{ partial "post/navigation.html" . }}
   <!-- Custom utterances comments -->
-  {{ if or (or (.Site.Params.remark42) (.Site.DisqusShortname)) (.Site.Params.utterances ) }}
+  {{ if .Site.Params.utterances }}
     {{ partial "post/comments.html" . }}
   {{ end }}
   <!-- End of custom utterances comments -->

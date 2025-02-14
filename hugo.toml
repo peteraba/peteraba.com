@@ -1,11 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
 theme = "poison"
-paginate = 10
 pluralizelisttitles = true   # removes the automatically appended "s" on sidebar entries
-
-# NOTE: If using Disqus as commenting engine, uncomment and configure this line
-# disqusShortname = "yourDisqusShortname"
 
 [params]
 brand = "Peter Aba"                      # name of your site - appears in the sidebar
@@ -28,7 +24,7 @@ menu = [
 
     # Example:
     # ... /content/about/about.md
-    {Name = "About Me", URL = "/about/", HasChildren = false},
+    {Name = "About Peter", URL = "/about/", HasChildren = false},
 
     # LIST
     # This example has a subheading of "Recent"
